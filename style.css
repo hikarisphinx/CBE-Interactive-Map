@@ -1,0 +1,137 @@
+        #MisOrMap {}
+
+        #DEO1st {
+            height: auto;
+            fill: #350de9;
+            stroke: #ffffff;
+            stroke-width: 4;
+        }
+
+        #DEO2nd {
+            height: auto;
+            fill: #810fdf;
+            stroke: #ffffff;
+            stroke-width: 4;
+        }
+
+        #CDOC {
+            height: auto;
+            fill: #e89207;
+            stroke: #ffffff;
+            stroke-width: 4;
+        }
+
+        path:hover {
+            fill: rgb(192, 63, 224);
+            stroke: red;
+            stroke-width: 3px;
+            transition: fill 0.4s;
+        }
+
+        .st0 {
+            font-family: 'Tahoma';
+        }
+
+        .st1 {
+            font-size: 106.9548px;
+        }
+
+        .st2 {
+            font-size: 106.9548px;
+        }
+
+        .st3 {
+            font-size: 106.9548px;
+        }
+
+        .st4 {
+            font-size: 106.9548px;
+        }
+
+        .st5 {
+            font-size: 106.9548px;
+        }
+
+        .st6 {
+            font-size: 106.9548px;
+        }
+
+        .st7 {
+            font-size: 106.9548px;
+        }
+
+        .st8 {
+            font-size: 106.9548px;
+        }
+
+        .st9 {
+            font-size: 106.9548px;
+        }
+
+        .st10 {
+            font-size: 106.9548px;
+        }
+
+        .st11 {
+            font-size: 106.9548px;
+        }
+
+        .st12 {
+            font-size: 106.9548px;
+        }
+
+        .st13 {
+            font-size: 106.9548px;
+        }
+
+        .st14 {
+            font-size: 106.9548px;
+        }
+
+        .st15 {
+            font-size: 106.9548px;
+        }
+
+        .st16 {
+            font-size: 106.9548px;
+        }
+
+        .st17 {
+            font-size: 106.9548px;
+        }
+
+        .st18 {
+            font-size: 106.9548px;
+        }
+
+        .st19 {
+            font-size: 106.9548px;
+        }
+
+        .st20 {
+            font-size: 106.9548px;
+        }
+
+        .st21 {
+            font-size: 106.9548px;
+        }
+
+        .st22 {
+            font-size: 106.9548px;
+        }
+
+        .st23 {
+            font-size: 106.9548px;
+        }
+
+        .st24 {
+            font-size: 106.9548px;
+        }
+
+        .st25 {
+            font-size: 106.9548px;
+        }
+
+        .st26 {
+            font-size: 106.9548px;
+        }
