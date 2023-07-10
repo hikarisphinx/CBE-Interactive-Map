@@ -160,7 +160,7 @@ a {
     color: inherit;
 }
 a:link {
-    color: inherit;
+    color: purple;
     text-decoration: underline;
 }
 
@@ -170,11 +170,11 @@ a:visited {
 }
 
 a:hover {
-    color: inherit;
+    color: purple;
     text-decoration: underline;
 }
 
 a:active {
-    color: inherit;
+    color: purple;
     text-decoration: underline;
 }
