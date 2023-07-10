@@ -1,32 +1,34 @@
-        #MisOrMap {}
+#MisOrMap {
+    padding-top: 10px;
+    }
 
-        #DEO1st {
-            height: auto;
-            fill: #350de9;
-            stroke: #ffffff;
-            stroke-width: 4;
-        }
+#DEO1st {
+    height: auto;
+    fill: #350de9;
+    stroke: #ffffff;
+    stroke-width: 4;
+    }
 
-        #DEO2nd {
-            height: auto;
-            fill: #810fdf;
-            stroke: #ffffff;
-            stroke-width: 4;
-        }
+#DEO2nd {
+    height: auto;
+    fill: #810fdf;
+    stroke: #ffffff;
+    stroke-width: 4;
+    }
 
-        #CDOC {
-            height: auto;
-            fill: #e89207;
-            stroke: #ffffff;
-            stroke-width: 4;
-        }
+#CDOC {
+    height: auto;
+    fill: #e89207;
+    stroke: #ffffff;
+    stroke-width: 4;
+    }
 
-        path:hover {
-            fill: rgb(192, 63, 224);
-            stroke: red;
-            stroke-width: 3px;
-            transition: fill 0.4s;
-        }
+path:hover {
+    fill: rgb(192, 63, 224);
+    stroke: red;
+    stroke-width: 3px;
+    transition: fill 0.4s;
+    }
 
         .st0 {
             font-family: 'Tahoma';
@@ -135,31 +137,44 @@
         .st26 {
             font-size: 106.9548px;
         }
-                .container {
-                    display: flex;
-                    flex-direction: row;
-                }
-        
-                .map-div {
-                    flex: 0 0 auto;
-                }
-        
-                .data-div{
-                    flex: 1 1 auto;
-                    overflow-y: scroll;
-                }
-        
-                @media (max-width: 1200px) {
-                    .container {
-                        flex-direction: column;
-                    }
-        
-                    .map-div{
-                        flex: 0 0 50%;
-                    }
-        
-                    .data-div {
-                        flex: 0 0 50%;
-                        overflow-y: auto;
-                    }
-                }
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left {
+    width: 60%;
+    position: fixed;
+}
+
+.right {
+    width: 40%;
+    float: right;
+}
+
+/* Anchor Tags */
+a {
+    color: inherit;
+}
+a:link {
+    color: inherit;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: purple;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: underline;
+}
+
+a:active {
+    color: inherit;
+    text-decoration: underline;
+}
