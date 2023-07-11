@@ -1,0 +1,172 @@
+.container {
+    width: 100%;
+    height: 100%;
+}
+.ProjectsData{
+    margin-left: 20px;
+}
+.left {
+    float: left;
+
+    width: 60%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.right {
+    float: right;
+    
+    width: 40%;
+    clear: both;
+    text-align: justify;
+    text-justify: inter-word;
+}
+@media (max-width: 1920px) {
+    .left {
+        margin: 0;
+
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .ProjectsData {
+    margin-left: -10px;
+    }
+}
+@media (max-width: 1536px) {
+    .left {
+    margin: 0;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    }
+    .ProjectsData {
+    margin-left: -10px;
+    }
+                
+}
+
+/* xl */
+@media (max-width: 1280px) {
+    #MisOrMap {
+        width: 100%;
+
+    }
+    .left {
+    margin: 0;
+    
+
+    }
+    .ProjectsData {
+        margin-left: -10px;
+    }
+}
+/* lg */
+@media (max-width: 1024px) {
+    #MisOrMap {
+        width: 100%;
+
+    }
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right {
+        width: 100%;
+        position: static;
+    }
+    .left
+    {
+    width: 100%;
+    position: relative;
+    margin: 0;
+    top: 0%;
+    -ms-transform: translateY(-0%);
+    transform: translateY(-0%);
+        
+
+    }
+}
+
+@media (max-width: 768px) {
+    #MisOrMap {
+            width: 100%;
+            
+    }
+    
+}
+/* sm */
+@media (max-width: 640px) {
+    #MisOrMap {
+            width: 100%;
+        }
+
+}
+
+/* xs */
+@media (max-width: 425px) {
+    #MisOrMap {
+            width: 100%;
+        }
+
+}
+
+
+
+
+#DEO1st {
+    height: auto;
+    fill: #350de9;
+    stroke: #ffffff;
+    stroke-width: 1;
+}
+
+#DEO2nd {
+    height: auto;
+    fill: #c5c5c5;
+    stroke: #ffffff;
+    stroke-width: 1;
+}
+#CDOC {
+    height: auto;
+    fill: #e89207;
+    stroke: #ffffff;
+    stroke-width: 1;
+}
+path:hover {
+    fill: rgb(192, 63, 224);
+    stroke: red;
+    stroke-width: 3px;
+    transition: fill 1s;
+}
+.st0 {
+    fill: #9506FC;
+    stroke: #000000;
+    stroke-width: 1.000000e-02;
+    stroke-miterlimit: 10;
+}
+
+.st1 {
+    fill: #1207E2;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+}
+
+.st2 {
+    fill: #EF7C1D;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+}
+
+.st3 {
+    font-family: 'ArialNarrow';
+}
+
+.st4 {
+    font-size: 100px;
+}
+
+
