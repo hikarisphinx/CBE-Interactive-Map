@@ -31,31 +31,19 @@
 /* md */
 @media (max-width: 768px) {
                 .container {
-                        display: grid;
-                        grid-template-columns: 1fr 1fr 1fr;
-                        grid-template-rows: 1fr 1fr 1fr;
-                        gap: 0px 0px;
-                        grid-template-areas:
-                            "left left left"
-                            "Right Right Right"
-                            ". . .";
+                        flex-direction: column;
                     }
                 
-                    .left {
-                        grid-area: left;
+                    .left,
+                    .right {
+                        width: 100%;
+                        margin: 0;
                     }
-                
-                    .Right {
-                        grid-area: Right;
-                    }
-            
 }
 
 /* sm */
 @media (max-width: 640px) {
-    .right {
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
+
 
 }
 
@@ -137,7 +125,4 @@ path:hover {
     padding-right: 10px;
     padding-top: 20px; 
 }
-.container {
-    display: grid;
-}
-/* Anchor Tags */
+
