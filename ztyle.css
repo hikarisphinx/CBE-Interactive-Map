@@ -1,0 +1,86 @@
+#MisOrMap {
+    padding-top: 50px;
+    padding-left: 40px;
+    margin: -130px -130px -130px -130px;
+    }
+
+#DEO1st {
+    height: auto;
+    fill: #350de9;
+    stroke: #ffffff;
+    stroke-width: 1;
+    }
+
+#DEO2nd {
+    height: auto;
+    fill: #810fdf;
+    stroke: #ffffff;
+    stroke-width: 1;
+    }
+
+#CDOC {
+    height: auto;
+    fill: #e89207;
+    stroke: #ffffff;
+    stroke-width: 1;
+    }
+
+path:hover {
+    fill: rgb(192, 63, 224);
+    stroke: red;
+    stroke-width: 3px;
+    transition: fill 1s;
+}
+.st0 {
+    fill: #9506FC;
+    stroke: #000000;
+    stroke-width: 1.000000e-02;
+    stroke-miterlimit: 10;
+    	}
+.st1 {
+    fill: #1207E2;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+    	}  
+.st2 {
+    fill: #EF7C1D;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+    	}
+    
+.st3 {
+    font-family: 'ArialNarrow';
+    	}
+    
+.st4 {
+    font-size: 100px;
+    	}
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    padding: 10px;
+}
+.left {
+    width: 60%;
+    position: fixed;
+}
+
+.right {
+    width: 40%;
+    float: right;
+    padding-right: 20px; 
+}
+
+/* Anchor Tags */
+a:link,
+a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
