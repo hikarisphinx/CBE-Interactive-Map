@@ -5,7 +5,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body>
-
+		<div class="navbar">
+			<a href="#MisOrMap">MAP -</a>
+			<a href="#LugaitData">Lugait -</a>
+			<a href="#ManticaoData">Manticao -</a>
+			<a href="#NaawanData">Naawan -</a>
+			<a href="#InitaoData">Initao -</a>
+			<a href="#LibertadData">Libertad -</a>
+			<a href="#GitagumData">Gitagum -</a>
+			<a href="#LaguindinganData">Laguindingan -</a>
+			<a href="#AlubijidData">Alubijid -</a>
+			<a href="#ElSalvadorCityData">El Salvador City -</a>
+			<a href="#OpolData">Opol -</a>
+			<a href="#TagoloanData">Tagoloan -</a>
+			<a href="#VillanuevaData">Villanueva -</a>
+			<a href="#ClaveriaData">Claveria -</a>
+			<a href="#JasaanData">Jasaan</a>
+		</div>
         <div class="container">
             <div class="row">
                 <div class="column left" >
@@ -1274,5 +1290,14 @@
                 </div>
             </div>
         </div>
+	<script>
+		// JavaScript code to handle the drawer toggle functionality
+		const navbarToggle = document.querySelector('.navbar-toggle');
+		const navbar = document.querySelector('.navbar');
+
+		navbarToggle.addEventListener('click', function () {
+			navbar.classList.toggle('active');
+		});
+	</script>
     </body>
 </html>
