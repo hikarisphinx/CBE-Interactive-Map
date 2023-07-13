@@ -86,11 +86,11 @@ a:link {
     text-decoration: none;
     color: #9506FC;
 }
+
 a:visited {
     text-decoration: none;
 }
-        
-        
+            
 a:hover {
     text-decoration: none;
     color: #e89207;
@@ -100,7 +100,6 @@ a:active {
     text-decoration: none;
 }
 
-/* Media query to show the navigation bar at 1024px */
 
 .container {
     width: 100%;
@@ -110,6 +109,8 @@ a:active {
 
 .ProjectsData{
     padding: 20px 20px 20px 20px;
+    max-width: 100%;
+    overflow-x: auto;
 }
 
 .left {
@@ -190,6 +191,7 @@ a:active {
         display: block;
             /* Show the navigation bar */
     }
+    
 }
 @media (max-width: 768px) {
     #MisOrMap {
@@ -210,7 +212,7 @@ a:active {
         }
 }
 
-/* Map CSS */
+/* Start Map CSS */
 #DEO1st {
     height: auto;
     fill: #350de9;
@@ -222,13 +224,13 @@ a:active {
     height: auto;
     fill: #c5c5c5;
     stroke: #ffffff;
-    stroke-width: 1;
+    stroke-width: 10;
 }
 #CDOC {
     height: auto;
     fill: #e89207;
     stroke: #ffffff;
-    stroke-width: 1;
+    stroke-width: 10;
 }
 path:hover {
     fill: rgb(192, 63, 224);
@@ -262,5 +264,46 @@ path:hover {
 .st4 {
     font-size: 100px;
 }
-
+    	.st5 {
+    	    fill: #0B0BF9;
+    	    stroke: #FFFFFF;
+    	    stroke-miterlimit: 10;
+    	}
+    
+    	.st6 {
+    	    fill: #F9F912;
+    	    stroke: #FFFFFF;
+    	    stroke-miterlimit: 10;
+    	}
+    
+    	.st7 {
+    	    fill: #F70D34;
+    	    stroke: #FFFFFF;
+    	    stroke-miterlimit: 10;
+    	}
+    
+    	.st8 {
+    	    font-family: 'MyriadPro-Regular';
+    	}
+    
+    	.st9 {
+    	    font-size: 140px;
+    	}
+    
+    	.st10 {
+    	    font-size: 150px;
+    	}
+    
+    	.st11 {
+    	    fill: #F3F900;
+    	    stroke: #FFFFFF;
+    	    stroke-miterlimit: 10;
+    	}
+    
+    	.st12 {
+    	    fill: #F70D1E;
+    	    stroke: #FFFFFF;
+    	    stroke-miterlimit: 10;
+    	}
+/* End Map CSS */
 
