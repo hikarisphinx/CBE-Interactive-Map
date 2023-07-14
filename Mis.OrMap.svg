@@ -3,7 +3,7 @@
 <svg version="1.1" id="MisOr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 8192 6912" style="enable-background:new 0 0 8192 6912;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#9506FC;stroke:#000000;stroke-width:1.000000e-04;stroke-miterlimit:10;}
+	.st0{fill:#9506FC;stroke:#000000;stroke-width:1.000000e-05;stroke-miterlimit:1;}
 	.st1{fill:#1207E2;stroke:#000000;stroke-miterlimit:10;}
 	.st2{fill:#EF7C1D;stroke:#000000;stroke-miterlimit:10;}
 	.st3{font-family:'ArialNarrow';}
@@ -11,11 +11,10 @@
 	.st5{fill:#0B0BF9;stroke:#FFFFFF;stroke-miterlimit:10;}
 	.st6{fill:#F9F912;stroke:#FFFFFF;stroke-miterlimit:10;}
 	.st7{fill:#F70D34;stroke:#FFFFFF;stroke-miterlimit:10;}
-	.st8{font-family:'MyriadPro-Regular';}
+	.st8{font-family:'ArialMT';}
 	.st9{font-size:140px;}
 	.st10{font-size:150px;}
 	.st11{fill:#F3F900;stroke:#FFFFFF;stroke-miterlimit:10;}
-	.st12{fill:#F70D1E;stroke:#FFFFFF;stroke-miterlimit:10;}
 </style>
 <g id="DEO2nd" transform="translate(0.000000,6912.000000) scale(0.100000,-0.100000)">
 	<path id="Jasaan" class="st0" d="M41704.2,37545.8c-35.8-40-125.4-176.6-139.6-216.8c-8.3-22.4-20.3-50.7-26.3-63.6
@@ -878,16 +877,13 @@
 	<text transform="matrix(1.0135 0 0 1 6118.6543 1446.4492)" class="st3 st4">Medina</text>
 	<text transform="matrix(1.0135 0 0 1 6612.2461 1961.583)" class="st3 st4">Gingoog City</text>
 </g>
-<ellipse class="st5" cx="1304.6" cy="3155.6" rx="62.1" ry="60.7"/>
 <circle class="st5" cx="771" cy="1059.4" r="129.8"/>
 <circle class="st6" cx="771" cy="1422" r="129.8"/>
 <circle class="st7" cx="771" cy="1784.6" r="129.8"/>
 <text transform="matrix(1 0 0 1 950.1924 1092.9424)" class="st8 st9">MULTI-PURPOSE BUILDINGS</text>
 <text transform="matrix(1 0 0 1 958.3119 1473.1909)" class="st8 st9">ROADS</text>
-<text transform="matrix(1 0 0 1 987.5781 1834.118)" class="st8 st9">BRIDGES</text>
+<text transform="matrix(1 0 0 1 987.5781 1834.1182)" class="st8 st9">BRIDGES</text>
 <text transform="matrix(1 0 0 1 648.1406 756.0234)" class="st8 st10">PROJECT EXISTENCE INDICATOR</text>
-<ellipse class="st11" cx="1304.6" cy="3395.3" rx="62.1" ry="60.7"/>
-<ellipse class="st12" cx="1304.6" cy="2949.7" rx="62.1" ry="60.7"/>
 <ellipse class="st11" cx="2142.5" cy="4234.9" rx="62.1" ry="60.7"/>
 <ellipse class="st11" cx="6064.2" cy="3676.7" rx="62.1" ry="60.7"/>
 <ellipse class="st11" cx="2488.2" cy="4447.5" rx="62.1" ry="60.7"/>
