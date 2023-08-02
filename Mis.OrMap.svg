@@ -3,18 +3,45 @@
 <svg version="1.1" id="MisOr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 8192 6912" style="enable-background:new 0 0 8192 6912;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#9506FC;stroke:#000000;stroke-width:1.000000e-05;stroke-miterlimit:1;}
+	.st0{fill:#9506FC;stroke:#000000;stroke-width:1.000000e-07;stroke-miterlimit:1;}
 	.st1{fill:#1207E2;stroke:#000000;stroke-miterlimit:10;}
 	.st2{fill:#EF7C1D;stroke:#000000;stroke-miterlimit:10;}
 	.st3{font-family:'ArialNarrow';}
 	.st4{font-size:124.2232px;}
-	.st5{fill:#0B0BF9;stroke:#FFFFFF;stroke-miterlimit:10;}
-	.st6{fill:#F9F912;stroke:#FFFFFF;stroke-miterlimit:10;}
-	.st7{fill:#F70D34;stroke:#FFFFFF;stroke-miterlimit:10;}
-	.st8{font-family:'ArialMT';}
-	.st9{font-size:140px;}
-	.st10{font-size:150px;}
-	.st11{fill:#F3F900;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st5{fill:#8703EF;}
+	.st6{font-family:'ArialMT';}
+	.st7{font-size:200px;}
+	.st8{fill:#4472C4;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st9{fill:#FF000D;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st10{fill:#70AD47;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st11{fill:#EA781B;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st12{fill:#7030A0;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st13{fill:#FFFF1A;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st14{stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st15{fill:#843C0C;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st16{fill:#FF73D8;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st17{fill:#B1FFF7;stroke:#0031FF;stroke-miterlimit:10;}
+	.st18{fill:#FFB1BC;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st19{fill:#F6DB76;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st20{fill:#A5A5A5;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st21{fill:#0B0BF9;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st22{fill:#E9816F;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st23{fill:#4472C4;}
+	.st24{font-size:150px;}
+	.st25{fill:#FF0000;}
+	.st26{fill:#70AD47;}
+	.st27{fill:#F9920B;}
+	.st28{fill:#7030A0;}
+	.st29{fill:#FFFF03;}
+	.st30{fill:none;stroke:#0000FF;stroke-width:0.5;stroke-miterlimit:10;}
+	.st31{fill:#843C0C;}
+	.st32{fill:#FF73D8;}
+	.st33{fill:#B1FFF7;}
+	.st34{fill:#FFB1BC;}
+	.st35{fill:#F6DB76;}
+	.st36{fill:#A5A5A5;}
+	.st37{fill:#410EFD;}
+	.st38{fill:#E9816F;}
 </style>
 <g id="DEO2nd" transform="translate(0.000000,6912.000000) scale(0.100000,-0.100000)">
 	<path id="Jasaan" class="st0" d="M41704.2,37545.8c-35.8-40-125.4-176.6-139.6-216.8c-8.3-22.4-20.3-50.7-26.3-63.6
@@ -859,7 +886,7 @@
 	<text transform="matrix(1.0135 0 0 1 1706.9458 3658.418)" class="st3 st4">Laguindingan</text>
 	<text transform="matrix(1.0135 0 0 1 2319.666 3988.3877)" class="st3 st4">Alubijid</text>
 	<text transform="matrix(1.0135 0 0 1 2686.2939 4208.8604)" class="st3 st4">El Salvador City</text>
-	<text transform="matrix(1.0135 0 0 1 3051.5103 4408.7061)" class="st3 st4">Opol</text>
+	<text transform="matrix(1.0135 0 0 1 3051.5107 4408.7061)" class="st3 st4">Opol</text>
 	<text transform="matrix(1.0135 0 0 1 3634.8379 4408.7061)" class="st3 st4">Tagoloan</text>
 	<text transform="matrix(1.0135 0 0 1 3573.3887 5445.2246)" class="st3 st4">Cagayan de Oro City</text>
 	<text transform="matrix(1.0135 0 0 1 6396.875 4271.3916)" class="st3 st4">Claveria</text>
@@ -877,28 +904,63 @@
 	<text transform="matrix(1.0135 0 0 1 6118.6543 1446.4492)" class="st3 st4">Medina</text>
 	<text transform="matrix(1.0135 0 0 1 6612.2461 1961.583)" class="st3 st4">Gingoog City</text>
 </g>
-<circle class="st5" cx="771" cy="1059.4" r="129.8"/>
-<circle class="st6" cx="771" cy="1422" r="129.8"/>
-<circle class="st7" cx="771" cy="1784.6" r="129.8"/>
-<text transform="matrix(1 0 0 1 950.1924 1092.9424)" class="st8 st9">MULTI-PURPOSE BUILDINGS</text>
-<text transform="matrix(1 0 0 1 958.3119 1473.1909)" class="st8 st9">ROADS</text>
-<text transform="matrix(1 0 0 1 987.5781 1834.1182)" class="st8 st9">BRIDGES</text>
-<text transform="matrix(1 0 0 1 648.1406 756.0234)" class="st8 st10">PROJECT EXISTENCE INDICATOR</text>
-<ellipse class="st11" cx="2142.5" cy="4234.9" rx="62.1" ry="60.7"/>
-<ellipse class="st11" cx="6064.2" cy="3676.7" rx="62.1" ry="60.7"/>
-<ellipse class="st11" cx="2488.2" cy="4447.5" rx="62.1" ry="60.7"/>
-<ellipse class="st5" cx="2332.8" cy="4676.8" rx="62.1" ry="60.7"/>
-<ellipse class="st11" cx="1594.5" cy="4118.4" rx="62.1" ry="60.7"/>
-<ellipse class="st11" cx="1088.9" cy="4687.4" rx="62.1" ry="60.7"/>
-<ellipse class="st11" cx="4391.5" cy="3395.3" rx="62.1" ry="60.7"/>
-<ellipse class="st11" cx="2032" cy="3867.2" rx="62.1" ry="60.7"/>
-<ellipse class="st11" cx="1304.6" cy="4332.1" rx="62.1" ry="60.7"/>
-<ellipse class="st11" cx="958.3" cy="5572.4" rx="62.1" ry="60.7"/>
-<ellipse class="st11" cx="958.3" cy="5151.9" rx="62.1" ry="60.7"/>
-<ellipse class="st11" cx="2675.1" cy="4952.9" rx="62.1" ry="60.7"/>
-<ellipse class="st5" cx="2521.9" cy="5151.9" rx="62.1" ry="60.7"/>
-<ellipse class="st11" cx="4391.5" cy="4386.8" rx="62.1" ry="60.7"/>
-<ellipse class="st5" cx="4598.7" cy="4408.7" rx="62.1" ry="60.7"/>
-<ellipse class="st11" cx="4523" cy="4077.6" rx="62.1" ry="60.7"/>
-<ellipse class="st5" cx="4739.9" cy="4082.9" rx="62.1" ry="60.7"/>
+<text transform="matrix(1 0 0 1 355.3633 321.0503)" class="st5 st6 st7">LEGEND</text>
+<ellipse class="st8" cx="293.3" cy="627.2" rx="62.1" ry="60.7"/>
+<ellipse class="st9" cx="293.3" cy="824.9" rx="62.1" ry="60.7"/>
+<ellipse class="st10" cx="293.3" cy="1022.7" rx="62.1" ry="60.7"/>
+<ellipse class="st11" cx="293.3" cy="1220.4" rx="62.1" ry="60.7"/>
+<ellipse class="st12" cx="293.3" cy="1418.1" rx="62.1" ry="60.7"/>
+<ellipse class="st13" cx="293.3" cy="1615.9" rx="62.1" ry="60.7"/>
+<ellipse class="st14" cx="293.3" cy="1813.6" rx="62.1" ry="60.7"/>
+<ellipse class="st15" cx="293.3" cy="2011.4" rx="62.1" ry="60.7"/>
+<ellipse class="st16" cx="293.3" cy="2209.1" rx="62.1" ry="60.7"/>
+<ellipse class="st17" cx="293.3" cy="2406.9" rx="62.1" ry="60.7"/>
+<ellipse class="st18" cx="293.3" cy="2604.6" rx="62.1" ry="60.7"/>
+<ellipse class="st19" cx="293.3" cy="2802.4" rx="62.1" ry="60.7"/>
+<ellipse class="st20" cx="293.3" cy="3000.1" rx="62.1" ry="60.7"/>
+<ellipse class="st21" cx="293.3" cy="3197.9" rx="62.1" ry="60.7"/>
+<ellipse class="st22" cx="293.3" cy="3395.6" rx="62.1" ry="60.7"/>
+<text transform="matrix(1 0 0 1 426.6355 674.3682)" class="st23 st6 st24">Barangay Halls</text>
+<text transform="matrix(1 0 0 1 426.9189 867.2578)" class="st25 st6 st24">Health Centers</text>
+<text transform="matrix(1 0 0 1 422.1724 1067.7432)" class="st26 st6 st24">Road (FMR)</text>
+<text transform="matrix(1 0 0 1 426.2908 1257.6885)" class="st27 st6 st24">H20 System</text>
+<text transform="matrix(1 0 0 1 436.0376 1456.9814)" class="st28 st6 st24">MOWDIR</text>
+<text transform="matrix(1 0 0 1 436.0376 1657.939)" class="st29 st6 st24">Market</text>
+<text transform="matrix(1 0 0 1 436.0376 1657.939)" class="st30 st6 st24">Market</text>
+<text transform="matrix(1 0 0 1 435.4097 1853.4639)" class="st6 st24">Flood Control</text>
+<text transform="matrix(1 0 0 1 444.5283 2055.0608)" class="st31 st6 st24">Streetlights</text>
+<text transform="matrix(1 0 0 1 438.0376 2253.8274)" class="st32 st6 st24">Bridges</text>
+<text transform="matrix(1 0 0 1 435.4097 2448.9504)" class="st33 st6 st24">Road Widening</text>
+<text transform="matrix(1 0 0 1 435.4097 2642.7473)" class="st34 st6 st24">Hospitals</text>
+<text transform="matrix(1 0 0 1 435.4097 2837.7776)" class="st35 st6 st24">Daycare Center</text>
+<text transform="matrix(1 0 0 1 435.4097 3049.4856)" class="st36 st6 st24">Pedestrian Overpass</text>
+<text transform="matrix(1 0 0 1 442.9973 3240.0583)" class="st37 st6 st24">Covered Courts</text>
+<text transform="matrix(1 0 0 1 435.4097 3432.8716)" class="st38 st6 st24">School Buildings</text>
+<ellipse class="st14" cx="701.5" cy="5803.7" rx="62.1" ry="60.7"/>
+<ellipse class="st11" cx="1189.2" cy="5608.6" rx="62.1" ry="60.7"/>
+<ellipse class="st10" cx="1366.7" cy="5693.8" rx="62.1" ry="60.7"/>
+<ellipse class="st10" cx="1167.2" cy="5151.9" rx="62.1" ry="60.7"/>
+<ellipse class="st13" cx="1003" cy="5547.9" rx="62.1" ry="60.7"/>
+<ellipse class="st13" cx="977.5" cy="5206.3" rx="62.1" ry="60.7"/>
+<ellipse class="st10" cx="1167.2" cy="4710.8" rx="62.1" ry="60.7"/>
+<ellipse class="st10" cx="1366.7" cy="4368.7" rx="62.1" ry="60.7"/>
+<ellipse class="st11" cx="1601.5" cy="4181" rx="62.1" ry="60.7"/>
+<ellipse class="st15" cx="1921.4" cy="3949.9" rx="62.1" ry="60.7"/>
+<ellipse class="st10" cx="2045.6" cy="3859.3" rx="62.1" ry="60.7"/>
+<ellipse class="st11" cx="1914.8" cy="4093.4" rx="62.1" ry="60.7"/>
+<ellipse class="st10" cx="2107.7" cy="4265" rx="62.1" ry="60.7"/>
+<ellipse class="st14" cx="2319.7" cy="4687.4" rx="62.1" ry="60.7"/>
+<ellipse class="st11" cx="2459.8" cy="4499.3" rx="62.1" ry="60.7"/>
+<ellipse class="st10" cx="2761.7" cy="4792.6" rx="62.1" ry="60.7"/>
+<ellipse class="st8" cx="2644.9" cy="4952.9" rx="62.1" ry="60.7"/>
+<ellipse class="st14" cx="4255.1" cy="4368.7" rx="62.1" ry="60.7"/>
+<ellipse class="st10" cx="4598.7" cy="4434.8" rx="62.1" ry="60.7"/>
+<ellipse class="st11" cx="4431.1" cy="4408.7" rx="62.1" ry="60.7"/>
+<ellipse class="st8" cx="4775.4" cy="4447.5" rx="62.1" ry="60.7"/>
+<ellipse class="st10" cx="4617.5" cy="4082.9" rx="62.1" ry="60.7"/>
+<ellipse class="st10" cx="4493.2" cy="3676.7" rx="62.1" ry="60.7"/>
+<ellipse class="st14" cx="4412" cy="3405.2" rx="62.1" ry="60.7"/>
+<ellipse class="st10" cx="5706.6" cy="3637.2" rx="62.1" ry="60.7"/>
+<ellipse class="st11" cx="5941" cy="3637.2" rx="62.1" ry="60.7"/>
+<ellipse class="st13" cx="6164.8" cy="3637.2" rx="62.1" ry="60.7"/>
 </svg>
