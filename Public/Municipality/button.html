@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Shapes</title>
+    <style>
+        /* Square Button */
+        .square-button {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 0;
+            cursor: pointer;
+        }
+
+        /* Star Button */
+        .star-button {
+            width: 100px;
+            height: 100px;
+            background-color: #e67e22;
+            color: #fff;
+            border: none;
+            clip-path: polygon(50% 0%, 61.8% 38.2%, 100% 50%, 61.8% 61.8%, 50% 100%, 38.2% 61.8%, 0% 50%, 38.2% 38.2%);
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <button class="square-button">Square</button>
+    <button class="star-button">Star</button>
+</body>
+
+</html>
