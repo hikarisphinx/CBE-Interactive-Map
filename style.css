@@ -339,11 +339,12 @@ path:hover {
     font-size: large;
     text-align: center;
     margin-top: -70px;
+    margin-left: -50%;
 
 }
 
 .icontext {
-    margin-top: -5px;
+    margin-top: -2px;
 }
 
 .show-table-button {
