@@ -10664,6 +10664,9 @@
 						AADwqAYAAP//7MMBDQAAAMKg909tBQPAhgAAAAAAAADwqAYAAP//7MMBDQAAAMKg909tBQPAhgAA
 						AAAAAADwqAYAAP//AwB23pivzxutFgAAAABJRU5ErkJggg==" transform="matrix(0.9039 0 0 0.869 3070.3745 1302.056)">
 							</image>
+						<a href="#"
+							onclick="showPopup('	LAGUINDINGAN	','	Year:  	2024	','	Barangay:	GASI	','	Project Type:	ROAD	','	Project Name:	Construction of Road from Brgy. Mauswagon to Brgy. Gasi  Laguindingan  Misamis Oriental	','	Amount: 	10,000,000.00	','	Date of Bidding:		','	Project Cost:		','	ABC:		','	Contractor:		','	Accomplishment:		','	Status:	Proposed 2024	'	)">
+
 							<image style="overflow:visible;enable-background:new    ;" width="322" height="303" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUYAAAEzCAYAAABNOKqCAAAACXBIWXMAAAPYAAAD2AFuR2M1AAAg
 						AElEQVR4nOzSwQaEYBgF0JNIhlokLYbm/Z+rKNpEisRoDP8yLVv9Z3N9d3u/RBTdy1CixhstPiH/
 						d4MKBV7IkeKp3zrxxYENK2ZMGNGjCzmEfsEed48u4QcAAP//7NSxCoMwFIXh3yZtEYdO4pDBxdL3
@@ -11201,7 +11204,7 @@
 						A0xzcHCAu9S8vLz/Dxw48A9LN3sUjALaAgYGBgAAAAD//xrFo2AUjIJRgAwYGBgAAAAA//8axaNg
 						FIyCUYAMGBgYAAAAAP//GsWjYBSMglGADBgYGAAAAAD//wMA9koCye70sv4AAAAASUVORK5CYII="
 								transform="matrix(2.9131 0 0 2.9058 3504.9629 1744.0278)">
-							</image>
+							</image></a>
 						</svg>
 
 
@@ -11213,38 +11216,47 @@
                 </div>
  						
 				
-					<script>
-						function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
-							var popup = document.getElementById("popup");
-							var popupContent = document.getElementById("popup-content");
+					<div class="column right">
+						<div class="popup" id="popup">
+							<div class="popup-content" id="popup-content">
+					
+							</div>
+						</div>
+					
+						<script>
+							function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
+								var popup = document.getElementById("popup");
+								var popupContent = document.getElementById("popup-content");
 
-							// Set the content of the popup
-							popupContent.innerHTML = `
-													<h2>${map1}</h2>
-													<p>${map2}</p>
-													<p>${map3}</p>
-													<p>${map4}</p>
-													<p>${map5}</p>
-													<p>${map6}</p>
-													<p>${map7}</p>
-													<p>${map8}</p>
-													<p>${map9}</p>
-													<p>${map10}</p>
-													<p>${map11}</p>
-													<p>${map12}</p>
-												`;
+								// Set the content of the popup
+								popupContent.innerHTML = `
+																							<h2>${map1}</h2>
+																							<p>${map2}</p>
+																							<p>${map3}</p>
+																							<p>${map4}</p>
+																							<p>${map5}</p>
+																							<p>${map6}</p>
+																							<p>${map7}</p>
+																							<p>${map8}</p>
+																							<p>${map9}</p>
+																							<p>${map10}</p>
+																							<p>${map11}</p>
+																							<p>${map12}</p>
+																						`;
 
-							// Center the popup
-							popup.style.display = "flex";
+								// Center the popup
+								popup.style.display = "flex";
 
-							// Close the popup when clicking outside of it
-							popup.onclick = function (e) {
-								if (e.target === popup) {
-									popup.style.display = "none";
-								}
-							};
-						}
-					</script>
+								// Close the popup when clicking outside of it
+								popup.onclick = function (e) {
+									if (e.target === popup) {
+										popup.style.display = "none";
+									}
+								};
+							}
+						</script>
+					
+					</div>
 				
 				</div>
 </div>

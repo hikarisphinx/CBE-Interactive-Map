@@ -17038,6 +17038,10 @@
 						AAAAAAAAAAC422+NFhXHl7WM2AAAABJ0RVh0RVhJRjpPcmllbnRhdGlvbgAxhFjs7wAAAABJRU5E
 						rkJggg==" transform="matrix(0.614 0 0 0.6273 4560.9448 2231.6597)">
 							</image>
+
+						<a href="#"
+							onclick="showPopup('	CLAVERIA	','	Year:  	2024	','	Barangay:	CABACUNGAN	','	Project Type:	MULTI-PURPOSE BUILDING	','	Project Name:	Construction of Multi-Purpose Building  Brgy. Cabacungan  Claveria  Misamis Oriental	','	Amount: 	5,000,000.00	','	Date of Bidding:		','	Project Cost:		','	ABC:		','	Contractor:		','	Accomplishment:		','	Status:	Proposed 2024	'	)">
+
 							<image style="overflow:visible;enable-background:new    ;" width="326" height="292" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUcAAAEdCAYAAACfXKX6AAAACXBIWXMAAATEAAAExAE8zNSDAAAg
 						AElEQVR4nOyTQQrCMBBFXzARsVREFKR6AHGbYwR62a56B3FREFy7MCCYLqRGJBApdNUTiPbBbD/z
 						hvmCgV9nDKyBHaC72QMbIAX6P+CBGrhKKS95njfGmJHWOs2ybJkkyUopNRdCzLrsb+IdY2zafUII
@@ -17375,7 +17379,7 @@
 						o2AUjIJRgA4YGBgAAAAA//8axaNgFIyCUYAOGBgYAAAAAP//GsWjYBSMglGADhgYGAAAAAD//xrF
 						o2AUjIJRgA4YGBgAAAAA//8axaNgFIyCUYAOGBgYAAAAAP//GsWjYBSMglGADhgYGAAAAAD//wMA
 						v9y/Gla9NvsAAAAASUVORK5CYII=" transform="matrix(2.3185 0 0 2.26 4820.8481 2578.2153)">
-							</image>
+							</image> </a>
 						</svg>
 
 
@@ -17385,49 +17389,51 @@
 
                     </div>
                 </div>
-				<script>
-					function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
-						var popup = document.getElementById("popup");
-						var popupContent = document.getElementById("popup-content");
+				<div class="column right">
+					<div class="popup" id="popup">
+						<div class="popup-content" id="popup-content">
+				
+						</div>
+					</div>
+				
+					<script>
+						function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
+							var popup = document.getElementById("popup");
+							var popupContent = document.getElementById("popup-content");
 
-						// Set the content of the popup
-						popupContent.innerHTML = `
-																	<h2>${map1}</h2>
-																	<p>${map2}</p>
-																	<p>${map3}</p>
-																	<p>${map4}</p>
-																	<p>${map5}</p>
-																	<p>${map6}</p>
-																	<p>${map7}</p>
-																	<p>${map8}</p>
-																	<p>${map9}</p>
-																	<p>${map10}</p>
-																	<p>${map11}</p>
-																	<p>${map12}</p>
-																`;
+							// Set the content of the popup
+							popupContent.innerHTML = `
+																						<h2>${map1}</h2>
+																						<p>${map2}</p>
+																						<p>${map3}</p>
+																						<p>${map4}</p>
+																						<p>${map5}</p>
+																						<p>${map6}</p>
+																						<p>${map7}</p>
+																						<p>${map8}</p>
+																						<p>${map9}</p>
+																						<p>${map10}</p>
+																						<p>${map11}</p>
+																						<p>${map12}</p>
+																					`;
 
-						// Center the popup
-						popup.style.display = "flex";
+							// Center the popup
+							popup.style.display = "flex";
 
-						// Close the popup when clicking outside of it
-						popup.onclick = function (e) {
-							if (e.target === popup) {
-								popup.style.display = "none";
-							}
-						};
-					}
-				</script>
+							// Close the popup when clicking outside of it
+							popup.onclick = function (e) {
+								if (e.target === popup) {
+									popup.style.display = "none";
+								}
+							};
+						}
+					</script>
+				
+				</div>
+				
             </div>
         </div>
-	<script>
-		// JavaScript code to handle the drawer toggle functionality
-		const navbarToggle = document.querySelector('.navbar-toggle');
-		const navbar = document.querySelector('.navbar');
 
-		navbarToggle.addEventListener('click', function () {
-			navbar.classList.toggle('active');
-		});
-	</script>
 	</div>
     </body>
 </html>

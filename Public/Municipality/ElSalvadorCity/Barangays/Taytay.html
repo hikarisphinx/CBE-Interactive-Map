@@ -10140,6 +10140,9 @@
 						9U/9HkdBAQAAAAAAAPhWDQAA///swwEJAAAAw6D1T/0eR0EBAAAAAAAA+FYNAAD//wMAq8gRQNqi
 						gEYAAAAASUVORK5CYII=" transform="matrix(0.8843 0 0 0.77 3427.1064 1160.1185)">
 							</image>
+						<a href="#"
+							onclick="showPopup('	EL SALVADOR CITY	','	Year:  	2024	','	Barangay:	TAYTAY	','	Project Type:	MULTI-PURPOSE BUILDING	','	Project Name:	Construction (Completion) of Multi-Purpose Building  Brgy. Taytay  El Salvador City  Misamis Oriental	','	Amount: 	5,000,000.00	','	Date of Bidding:		','	Project Cost:		','	ABC:		','	Contractor:		','	Accomplishment:		','	Status:	Proposed 2024	'	)">
+
 							<image style="overflow:visible;enable-background:new    ;" width="321" height="296" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUUAAAEqCAYAAACC1kLSAAAACXBIWXMAAAOJAAADiQEKNdRyAAAg
 						AElEQVR4nOzSwQaEYBgF0JNIhlokLYbm/Z+rKNpEisRoDP8ubVv9Z3N9d3u/RBRdZShR440Wn5D/
 						u0GFAi/kSPHkP5344sCGFTMmjOjRhRxCv2CPe0e38AMAAP//7NQxCsJAEAXQpxuVYGElFilsFO9/
@@ -10529,7 +10532,7 @@
 						5EdAvDV7Bcl6mSvNy8x+AAAA//8aLRRHAT0BKL0xOjg4MH3+/Bmc9n78+AGmOTg4wN1oXl7e/wcO
 						HPgHLSRHl7eMAvoCBgYGAAAAAP//GsWjYBSMglEAAwwMDAAAAAD//wMAfs1XFJeKUhIAAAAASUVO
 						RK5CYII=" transform="matrix(3.1576 0 0 3.1467 3804.6521 1507.1497)">
-							</image>
+							</image></a>
 							<image style="overflow:visible;enable-background:new    ;" width="2000" height="2000" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB80AAAcrCAYAAAA3PSf7AAAACXBIWXMAAEaWAABGlgFVjX9XAAAg
 						AElEQVR4nOzRMQ2AMAAAwSdBCS7Af6gLlDCgoGOZ7gz88FsAAADAcu/TXZ2TztiPLhcAAADgZ9UH
 						AAD//+zZsREAEAAEwR9d6V6iDRoRGA3IiHZLuA+/aA4AAABvrZl+OcyPukaaGQAAAOCzJBsAAP//
@@ -12471,38 +12474,47 @@
                 </div>
  						
 				
-					<script>
-						function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
-							var popup = document.getElementById("popup");
-							var popupContent = document.getElementById("popup-content");
+					<div class="column right">
+						<div class="popup" id="popup">
+							<div class="popup-content" id="popup-content">
+					
+							</div>
+						</div>
+					
+						<script>
+							function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
+								var popup = document.getElementById("popup");
+								var popupContent = document.getElementById("popup-content");
 
-							// Set the content of the popup
-							popupContent.innerHTML = `
-													<h2>${map1}</h2>
-													<p>${map2}</p>
-													<p>${map3}</p>
-													<p>${map4}</p>
-													<p>${map5}</p>
-													<p>${map6}</p>
-													<p>${map7}</p>
-													<p>${map8}</p>
-													<p>${map9}</p>
-													<p>${map10}</p>
-													<p>${map11}</p>
-													<p>${map12}</p>
-												`;
+								// Set the content of the popup
+								popupContent.innerHTML = `
+																							<h2>${map1}</h2>
+																							<p>${map2}</p>
+																							<p>${map3}</p>
+																							<p>${map4}</p>
+																							<p>${map5}</p>
+																							<p>${map6}</p>
+																							<p>${map7}</p>
+																							<p>${map8}</p>
+																							<p>${map9}</p>
+																							<p>${map10}</p>
+																							<p>${map11}</p>
+																							<p>${map12}</p>
+																						`;
 
-							// Center the popup
-							popup.style.display = "flex";
+								// Center the popup
+								popup.style.display = "flex";
 
-							// Close the popup when clicking outside of it
-							popup.onclick = function (e) {
-								if (e.target === popup) {
-									popup.style.display = "none";
-								}
-							};
-						}
-					</script>
+								// Close the popup when clicking outside of it
+								popup.onclick = function (e) {
+									if (e.target === popup) {
+										popup.style.display = "none";
+									}
+								};
+							}
+						</script>
+					
+					</div>
 				
 				</div>
 </div>

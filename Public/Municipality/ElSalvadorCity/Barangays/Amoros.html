@@ -8528,6 +8528,9 @@
 						R9fcjQLaAgYGBgAAAAD//xrFo2AUjIKRCxgYGAAAAAD//wMAtBB/48BRfTkAAAAASUVORK5CYII="
 								transform="matrix(0.6779 0 0 0.6779 8.98 3407.0852)">
 							</image>
+						<a href="#"
+							onclick="showPopup('	EL SALVADOR CITY	','	Year:  	2023	','	Barangay:	AMOROS	','	Project Type:	FLOOD CONTROL	','	Project Name:	Construction of Flood Control Structure along Amoros River (Upstream of Amoros Br.)  Amoros  El Salvador City  Misamis Oriental	','	Amount: 	90,000,000.00	','	Date of Bidding:	11/29/2022	','	Project Cost:	84,900,315.97	','	ABC:	86,850,000.00	','	Contractor:	Ritche-Natalie Builders & Gen. Mdse	','	Accomplishment:	75.00%	','	Status:	Project on-going	'	)">
+	
 							<image style="overflow:visible;enable-background:new    ;" width="321" height="304" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUQAAAEgCAYAAADMjwqKAAAACXBIWXMAAAf/AAAH/wFdbWgRAAAg
 						AElEQVR4nOzRMQoAMQhE0ZmYSsj9r2llsxiXgDlCOj88hGkluu5NowiAWbDWmpk5rrOpKt09SW6S
 						54aIhJl9AKLskv2v7kkAfgAAAP//7NTLCgJBDETRQy98oCCK//+H6jiMyiASCURwqfu+UBQ0Idk0
@@ -9040,7 +9043,7 @@
 						e5mxiMgHAAD//xotEEcBvQAsrTE6ODgwff78Gcz/8eMHmObg4AB3nXl5ef8fOHDgH5bu9CgYBbQF
 						DAwMAAAAAP//GsWjYBSMglEAAgwMDAAAAAD//xrFo2AUjIJRAAIMDAwAAAAA//8DAJGr68laVvyP
 						AAAAAElFTkSuQmCC" transform="matrix(1.3952 0 0 1.3092 4190.4434 2480.1528)">
-							</image>
+							</image></a>
 							<image style="overflow:visible;enable-background:new    ;" width="2000" height="2000" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB9AAAAfQCAYAAACaOMR5AAAABmJLR0QA/wD/AP+gvaeTAACAAElE
 						QVR42uz9+Z/ddX3//9+f5zWTBRBUrAKSZWYSCAmK2rq2au1m23f3xS7aVm1d3nWru4Civi+f79/F
 						t8v7h9Z+Lq3KhCWZM5ME0doqLmDInPN6PT8/JIEAISSZMzNnuV4vl/ygIpDbmSwzj9zPKwEAAAC2
@@ -10176,38 +10179,47 @@
                 </div>
  						
 				
-					<script>
-						function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
-							var popup = document.getElementById("popup");
-							var popupContent = document.getElementById("popup-content");
+					<div class="column right">
+						<div class="popup" id="popup">
+							<div class="popup-content" id="popup-content">
+					
+							</div>
+						</div>
+					
+						<script>
+							function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
+								var popup = document.getElementById("popup");
+								var popupContent = document.getElementById("popup-content");
 
-							// Set the content of the popup
-							popupContent.innerHTML = `
-													<h2>${map1}</h2>
-													<p>${map2}</p>
-													<p>${map3}</p>
-													<p>${map4}</p>
-													<p>${map5}</p>
-													<p>${map6}</p>
-													<p>${map7}</p>
-													<p>${map8}</p>
-													<p>${map9}</p>
-													<p>${map10}</p>
-													<p>${map11}</p>
-													<p>${map12}</p>
-												`;
+								// Set the content of the popup
+								popupContent.innerHTML = `
+																							<h2>${map1}</h2>
+																							<p>${map2}</p>
+																							<p>${map3}</p>
+																							<p>${map4}</p>
+																							<p>${map5}</p>
+																							<p>${map6}</p>
+																							<p>${map7}</p>
+																							<p>${map8}</p>
+																							<p>${map9}</p>
+																							<p>${map10}</p>
+																							<p>${map11}</p>
+																							<p>${map12}</p>
+																						`;
 
-							// Center the popup
-							popup.style.display = "flex";
+								// Center the popup
+								popup.style.display = "flex";
 
-							// Close the popup when clicking outside of it
-							popup.onclick = function (e) {
-								if (e.target === popup) {
-									popup.style.display = "none";
-								}
-							};
-						}
-					</script>
+								// Close the popup when clicking outside of it
+								popup.onclick = function (e) {
+									if (e.target === popup) {
+										popup.style.display = "none";
+									}
+								};
+							}
+						</script>
+					
+					</div>
 				
 				</div>
 </div>

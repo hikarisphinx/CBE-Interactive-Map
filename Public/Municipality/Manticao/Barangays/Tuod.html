@@ -7790,6 +7790,9 @@
 						KEfXBI4C+gIGBgYAAAAA//8axaNgFIyCUYAMGBgYAAAAAP//GsWjYBSMglGADBgYGAAAAAD//xrF
 						o2AUjIJRgAwYGBgAAAAA//8DACUdFkTpwZxvAAAAAElFTkSuQmCC" transform="matrix(0.6737 0 0 0.6737 9.32 3150.625)">
 							</image>
+						<a href="#"
+							onclick="showPopup('	MANTICAO	','	Year:  	2023	','	Barangay:	TUOD	','	Project Type:	WATER SYSTEM	','	Project Name:	Construction of Solar Water System  Barangay Tuod  Manticao  Misamis Oriental	','	Amount: 	10,000,000.00	','	Date of Bidding:	.	','	Project Cost:	9,590,612.43	','	ABC:	9,590,612.43	','	Contractor:	Ramtrade Const. & Supply	','	Accomplishment:	5.00%	','	Status:	PROJECT UNDER SUSPENSION ORDER	'	)">
+	
 							<image style="overflow:visible;enable-background:new    ;" width="322" height="270" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUYAAAEYCAYAAAAgU193AAAACXBIWXMAAAP/AAAD/wGuK+TeAAAg
 						AElEQVR4nGIYBaNgFIyCUYAEGBgYAAAAAP//7NK7CsJQEATQE298F1ZiEdBG8f9/RywESaGlKL4S
 						lSu3SCH+gA4MLMvuDjtM9vfj5xEzMMQYMyywxBxTTDBCH60vZlW444xLYqxPjd4VtzhXFEXI8/wZ
@@ -8280,7 +8283,7 @@
 						Xl7e/wcOHPiHpTU5CkYBfQADAwMAAAD//xrFo2AUjIJRgAwYGBgAAAAA//8axaNgFIyCUYAMGBgY
 						AAAAAP//GsWjYBSMglGADBgYGAAAAAD//xrFo2AUjIJRgAwYGBgAAAAA//8DAPWIMRQ4rb61AAAA
 						AElFTkSuQmCC" transform="matrix(2.7991 0 0 2.8554 4091.6169 1738.557)">
-							</image>
+							</image></a>
 							<image style="overflow:visible;enable-background:new    ;" width="1999" height="1888" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB88AAAdgCAYAAABWVw1pAAAACXBIWXMAAEiWAABIlgEPLCkAAAAg
 						AElEQVR4nOzRwQkAIRADwNh/bVeCVuKxsk3oZwYCId8EAAAAuKsq45/59kp1uvfmBgAAAHgkyQEA
 						AP//7NGxDcAgAAOwlJN6Bfy/I3EIKurAC7DYU7ZISbE9AAAAnDV72vfk3aV/niPVDQAAAHBJkgUA
@@ -10267,38 +10270,47 @@
                 </div>
  						
 				
-					<script>
-						function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
-							var popup = document.getElementById("popup");
-							var popupContent = document.getElementById("popup-content");
+					<div class="column right">
+						<div class="popup" id="popup">
+							<div class="popup-content" id="popup-content">
+					
+							</div>
+						</div>
+					
+						<script>
+							function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
+								var popup = document.getElementById("popup");
+								var popupContent = document.getElementById("popup-content");
 
-							// Set the content of the popup
-							popupContent.innerHTML = `
-													<h2>${map1}</h2>
-													<p>${map2}</p>
-													<p>${map3}</p>
-													<p>${map4}</p>
-													<p>${map5}</p>
-													<p>${map6}</p>
-													<p>${map7}</p>
-													<p>${map8}</p>
-													<p>${map9}</p>
-													<p>${map10}</p>
-													<p>${map11}</p>
-													<p>${map12}</p>
-												`;
+								// Set the content of the popup
+								popupContent.innerHTML = `
+																							<h2>${map1}</h2>
+																							<p>${map2}</p>
+																							<p>${map3}</p>
+																							<p>${map4}</p>
+																							<p>${map5}</p>
+																							<p>${map6}</p>
+																							<p>${map7}</p>
+																							<p>${map8}</p>
+																							<p>${map9}</p>
+																							<p>${map10}</p>
+																							<p>${map11}</p>
+																							<p>${map12}</p>
+																						`;
 
-							// Center the popup
-							popup.style.display = "flex";
+								// Center the popup
+								popup.style.display = "flex";
 
-							// Close the popup when clicking outside of it
-							popup.onclick = function (e) {
-								if (e.target === popup) {
-									popup.style.display = "none";
-								}
-							};
-						}
-					</script>
+								// Close the popup when clicking outside of it
+								popup.onclick = function (e) {
+									if (e.target === popup) {
+										popup.style.display = "none";
+									}
+								};
+							}
+						</script>
+					
+					</div>
 				
 				</div>
 </div>

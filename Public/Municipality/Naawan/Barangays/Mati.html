@@ -108,6 +108,9 @@
 							<g>
 								<text transform="matrix(1 0 0 1 117.783 336.8745)" class="st1 st3">Barangay: Mat-i</text>
 							</g>
+						<a href="#"
+							onclick="showPopup('	NAAWAN	','	Year:  	2023	','	Barangay: MAT-I to AYA-AYA	','	Project Type:	ROAD	','	Project Name:	Construction of Road from Barangay Aya-Aya  Lugait to Barangay Mat-I  Naawan  Misamis Oriental (Package 3)	','	Amount: 	50,000,000.00	','	Date of Bidding:	.	','	Project Cost:	19,648,766.11	','	ABC:	19,790,198.61	','	Contractor:	FOUNTAIN HEAD CONSTRUCTION & SUPPLY	','	Accomplishment:	15.00%	','	Status:	PROJECT ON-GOING	'	)">
+
 							<image style="overflow:visible;enable-background:new    ;" width="325" height="304" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUoAAAFDCAYAAABcJkfNAAAACXBIWXMAAATEAAAExAE8zNSDAAAg
 						AElEQVR4nOzSWwrCUAxF0dVbqEoVUZz/yDoGX/igiEYuZALi792wySGE85VOo/E79W8WWGGDLXY4
 						5Kzuc7/GmNb7ZSllQI+Sys7AJ31HxCsiZjzSO2644IQjpsxnXPHEnB2Nxv/gCwAA///s1CEKwDAQ
@@ -674,7 +677,7 @@
 						pjk4OMBdcF5e3v8HDhz4h6VbPgpGAf0BAwMDAAAA//8axaNgFIyCUYAPMDAwAAAAAP//GsWjYBSM
 						glGADzAwMAAAAAD//xrFo2AUjIJRgA8wMDAAAAAA//8axaNgFIyCUYAPMDAwAAAAAP//GsWjYBSM
 						glGADzAwMAAAAAD//wMAZGU592E4nLUAAAAASUVORK5CYII=" transform="matrix(2.3485 0 0 2.462 4280.0044 2060.1797)">
-							</image>
+							</image></a>
 							<g>
 								<text transform="matrix(1 0 0 1 6358.7998 4410.3501)" class="st1 st4">2023 On-Going Projects</text>
 							</g>
@@ -10603,38 +10606,47 @@
                 </div>
  						
 				
-					<script>
-						function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
-							var popup = document.getElementById("popup");
-							var popupContent = document.getElementById("popup-content");
+					<div class="column right">
+						<div class="popup" id="popup">
+							<div class="popup-content" id="popup-content">
+					
+							</div>
+						</div>
+					
+						<script>
+							function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
+								var popup = document.getElementById("popup");
+								var popupContent = document.getElementById("popup-content");
 
-							// Set the content of the popup
-							popupContent.innerHTML = `
-													<h2>${map1}</h2>
-													<p>${map2}</p>
-													<p>${map3}</p>
-													<p>${map4}</p>
-													<p>${map5}</p>
-													<p>${map6}</p>
-													<p>${map7}</p>
-													<p>${map8}</p>
-													<p>${map9}</p>
-													<p>${map10}</p>
-													<p>${map11}</p>
-													<p>${map12}</p>
-												`;
+								// Set the content of the popup
+								popupContent.innerHTML = `
+																							<h2>${map1}</h2>
+																							<p>${map2}</p>
+																							<p>${map3}</p>
+																							<p>${map4}</p>
+																							<p>${map5}</p>
+																							<p>${map6}</p>
+																							<p>${map7}</p>
+																							<p>${map8}</p>
+																							<p>${map9}</p>
+																							<p>${map10}</p>
+																							<p>${map11}</p>
+																							<p>${map12}</p>
+																						`;
 
-							// Center the popup
-							popup.style.display = "flex";
+								// Center the popup
+								popup.style.display = "flex";
 
-							// Close the popup when clicking outside of it
-							popup.onclick = function (e) {
-								if (e.target === popup) {
-									popup.style.display = "none";
-								}
-							};
-						}
-					</script>
+								// Close the popup when clicking outside of it
+								popup.onclick = function (e) {
+									if (e.target === popup) {
+										popup.style.display = "none";
+									}
+								};
+							}
+						</script>
+					
+					</div>
 				
 				</div>
 </div>

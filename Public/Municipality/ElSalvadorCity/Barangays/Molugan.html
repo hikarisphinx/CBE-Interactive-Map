@@ -8293,6 +8293,9 @@
 						R9fcjQLaAgYGBgAAAAD//xrFo2AUjIKRCxgYGAAAAAD//wMAtBB/48BRfTkAAAAASUVORK5CYII="
 								transform="matrix(0.6779 0 0 0.6779 8.98 3407.0852)">
 							</image>
+							<a href="#"
+								onclick="showPopup('	EL SALVADOR CITY	','	Year:  	2023	','	Barangay:	MOLUGAN	','	Project Type:	WATER SYSTEM	','	Project Name:	Rehabilitation of Water System  Barangay Mulogan  El Salvador  Misamis Oriental	','	Amount: 	5,000,000.00	','	Date of Bidding:	11/22/2022	','	Project Cost:	5,000,000.00	','	ABC:	4,950,000.00	','	Contractor:	Mikkil Construction	','	Accomplishment:	.	','	Status:	.	'	)">
+
 							<image style="overflow:visible;enable-background:new    ;" width="321" height="299" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAAEhCAYAAAAOOHlVAAAACXBIWXMAAAJ1AAACdQF32cIiAAAg
 						AElEQVR4nGIYBaNgFIyCEQkYGBgAAAAA///s0lkKQkEMRNFjCw6giCLuf4OOOPAQjTyoBbiAvnAp
 						CKF+kkm/fOdPxl+ZY4k1NthinxzdZb7CIbuL1toMU7QofYVv/FTVu6oGPOMDd1xxxil5TF5wwwtD
@@ -8800,7 +8803,7 @@
 						SojV5op5zOwHAAD//xotAEcBrQEojTE6ODgwff78GZzefvz4AaY5ODjAXWFeXt7/Bw4c+IelezwK
 						RgHtAAMDAwAAAP//GsWjYBSMgpEJGBgYAAAAAP//GsWjYBSMgpEJGBgYAAAAAP//GsWjYBSMgpEJ
 						GBgYAAAAAP//AwCf6gwPlLMtzQAAAABJRU5ErkJggg==" transform="matrix(4.4671 0 0 4.3245 4075.7056 1685.8871)">
-							</image>
+							</image></a>
 							<image style="overflow:visible;enable-background:new    ;" width="2000" height="2000" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB9AAAAcvCAYAAAB+/G+1AAAACXBIWXMAAEaWAABGlgFVjX9XAAAg
 						AElEQVR4nOzRMRGAMADAwJRDCHrql6sanDAwYwCWfwMZMgIAAAA+dV/NRueruTX3o+UEAAAA/KR6
 						AAAA///s0KENADAMA0Gng3f0KgM0OOgOPrHk43sAAABYVrnf4BsaAAAAsCdJAwAA///s2SEBACAU
@@ -10740,38 +10743,47 @@
                 </div>
  						
 				
-					<script>
-						function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
-							var popup = document.getElementById("popup");
-							var popupContent = document.getElementById("popup-content");
+					<div class="column right">
+						<div class="popup" id="popup">
+							<div class="popup-content" id="popup-content">
+					
+							</div>
+						</div>
+					
+						<script>
+							function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
+								var popup = document.getElementById("popup");
+								var popupContent = document.getElementById("popup-content");
 
-							// Set the content of the popup
-							popupContent.innerHTML = `
-													<h2>${map1}</h2>
-													<p>${map2}</p>
-													<p>${map3}</p>
-													<p>${map4}</p>
-													<p>${map5}</p>
-													<p>${map6}</p>
-													<p>${map7}</p>
-													<p>${map8}</p>
-													<p>${map9}</p>
-													<p>${map10}</p>
-													<p>${map11}</p>
-													<p>${map12}</p>
-												`;
+								// Set the content of the popup
+								popupContent.innerHTML = `
+																							<h2>${map1}</h2>
+																							<p>${map2}</p>
+																							<p>${map3}</p>
+																							<p>${map4}</p>
+																							<p>${map5}</p>
+																							<p>${map6}</p>
+																							<p>${map7}</p>
+																							<p>${map8}</p>
+																							<p>${map9}</p>
+																							<p>${map10}</p>
+																							<p>${map11}</p>
+																							<p>${map12}</p>
+																						`;
 
-							// Center the popup
-							popup.style.display = "flex";
+								// Center the popup
+								popup.style.display = "flex";
 
-							// Close the popup when clicking outside of it
-							popup.onclick = function (e) {
-								if (e.target === popup) {
-									popup.style.display = "none";
-								}
-							};
-						}
-					</script>
+								// Close the popup when clicking outside of it
+								popup.onclick = function (e) {
+									if (e.target === popup) {
+										popup.style.display = "none";
+									}
+								};
+							}
+						</script>
+					
+					</div>
 				
 				</div>
 </div>

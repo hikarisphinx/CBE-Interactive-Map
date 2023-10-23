@@ -6858,6 +6858,9 @@
 						wDn9fn8rL19bWcga+NHEAtjIv2tnURSrTugxIoJCrKD3mjJhwgRTc3Nz4H3ndDoDz3a7PbAsdjgc
 						6tq1a/0sihJzJwiCIAhRBcD/B0dGgOBxLpSNAAAAAElFTkSuQmCC" transform="matrix(0.6758 0 0 0.6758 3.2979 3165.3401)">
 							</image>
+							<a href="#"
+								onclick="showPopup('	JASAAN	','	Year:  	2023	','	Barangay:	SOLONA BRIDGE	','	Project Type:	FLOOD CONTROL	','	Project Name:	Construction of Flood Control Structure along Solana River (Downstream of Solana Bridge), Jasaan, Misamis Oriental	','	Amount: 	80,000,000.00	','	Date of Bidding:	2/22/2023	','	Project Cost:	77,200,000.00	','	ABC:	76,949,705.50	','	Contractor:	RITCHE-NATHALIE BUILDERS & GEN. MDSE.	','	Accomplishment:	.	','	Status:	.	'	)">
+
 							<image style="overflow:visible;enable-background:new    ;" width="321" height="303" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUMAAAEgCAYAAAAuUxHzAAAACXBIWXMAAAOwAAADsAEnxA+tAAAg
 						AElEQVR4nOzRMQoAMQhE0ZmYSsj9r2llsxiXgLnBbueHh+UUEl33X6MIgHmstWZmjussqyrdPUlu
 						kueGiISZPQCi7JL9r+7zALwAAAD//+zUywrCUAxF0cUd+ECLWPz/P/RVtKUUiVyI4FDnd8PhQAgZ
@@ -7381,7 +7384,8 @@
 						AP//Gi0MRwE9ASi9MTo4ODB9/vwZnPZ+/PgBpjk4OMAtRF5e3v8HDhz4h6XVOApGAe0AAwMDAAAA
 						//8axaNgFIyCEQ8YGBgYAAAAAP//AwByBzLS7nurIAAAAABJRU5ErkJggg=="
 								transform="matrix(3.0108 0 0 2.8435 3845.0608 2009.6482)">
-							</image>
+							</image> </a>
+
 							<image style="overflow:visible;enable-background:new    ;" width="2000" height="1886" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB8sAAAb1CAYAAAC0YCFXAAAACXBIWXMAAEiWAABIlgEPLCkAAAAg
 						AElEQVR4nOzQMRGAMADAwHTACGZqmcMMQhiKAVaY/gVkyAgAAAD4zH01x+p466+a297pPgAAAPys
 						egAAAP//7NCxEQAgDMSwD4uHzWECSi6NNIALL88BAADgnzrpV7ySbT0AAAAMSHIBAAD//+zZIQEA
@@ -9268,38 +9272,47 @@
                 </div>
  						
 				
-					<script>
-						function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
-							var popup = document.getElementById("popup");
-							var popupContent = document.getElementById("popup-content");
+					<div class="column right">
+						<div class="popup" id="popup">
+							<div class="popup-content" id="popup-content">
+					
+							</div>
+						</div>
+					
+						<script>
+							function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
+								var popup = document.getElementById("popup");
+								var popupContent = document.getElementById("popup-content");
 
-							// Set the content of the popup
-							popupContent.innerHTML = `
-													<h2>${map1}</h2>
-													<p>${map2}</p>
-													<p>${map3}</p>
-													<p>${map4}</p>
-													<p>${map5}</p>
-													<p>${map6}</p>
-													<p>${map7}</p>
-													<p>${map8}</p>
-													<p>${map9}</p>
-													<p>${map10}</p>
-													<p>${map11}</p>
-													<p>${map12}</p>
-												`;
+								// Set the content of the popup
+								popupContent.innerHTML = `
+																		<h2>${map1}</h2>
+																		<p>${map2}</p>
+																		<p>${map3}</p>
+																		<p>${map4}</p>
+																		<p>${map5}</p>
+																		<p>${map6}</p>
+																		<p>${map7}</p>
+																		<p>${map8}</p>
+																		<p>${map9}</p>
+																		<p>${map10}</p>
+																		<p>${map11}</p>
+																		<p>${map12}</p>
+																	`;
 
-							// Center the popup
-							popup.style.display = "flex";
+								// Center the popup
+								popup.style.display = "flex";
 
-							// Close the popup when clicking outside of it
-							popup.onclick = function (e) {
-								if (e.target === popup) {
-									popup.style.display = "none";
-								}
-							};
-						}
-					</script>
+								// Close the popup when clicking outside of it
+								popup.onclick = function (e) {
+									if (e.target === popup) {
+										popup.style.display = "none";
+									}
+								};
+							}
+						</script>
+					
+					</div>
 				
 				</div>
 </div>

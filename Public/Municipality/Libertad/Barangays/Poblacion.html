@@ -10457,6 +10457,9 @@
 						7MMBDQAAAMKg909tEGFDAAAAAAAAAH5VAwAA///swwENAAAAwqD3T20QYUMAAAAAAAAAflUDAAD/
 						/wMAK423hcnZjP8AAAAASUVORK5CYII=" transform="matrix(0.1527 0 0 0.1441 2045.5649 5138.8281)">
 							</image>
+						<a href="#"
+							onclick="showPopup('	LIBERTAD	','	Year:  	2024	','	Barangay:	POBLACION	','	Project Type:	MULTI-PURPOSE BUILDING	','	Project Name:	Improvement of Multi-Purpose Building  Poblacion  Libertad  Misamis Oriental	','	Amount: 	5,000,000.00	','	Date of Bidding:		','	Project Cost:		','	ABC:		','	Contractor:		','	Accomplishment:		','	Status:	Proposed 2024	'	)">
+
 							<image style="overflow:visible;enable-background:new    ;" width="320" height="311" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT8AAAEsCAYAAAC15LSeAAAACXBIWXMAAAWwAAAFsAFAmUYlAAAg
 						AElEQVR4nOzRMQrAQAhE0Zk1RVjw/te0sgmuYcG9QdL54GM5hURr/xiVALhU9c7McdqLc066e5Jc
 						JPcNEQkzewBEtarsP7XPAHgBAAD//+zUuQoCURBE0cNLZHBD8f//0BUXBpGWgRKMBPN3oSjooKLm
@@ -10843,7 +10846,7 @@
 						QCcZi/AhGWG73b3r7ewK2C5Phe/Q7VIMc8Ul3ymlvAAAAP//Gi38RgG9AJODgwPT58+fwWnux48f
 						YJqDgwPc/eXl5f1/4MCBf1i6xKNgFFAfMDAwAAAAAP//GsWjYBSMgpEHGBgYAAAAAP//GsWjYBSM
 						gpEHGBgYAAAAAP//AwCNzw6ERMso5wAAAABJRU5ErkJggg==" transform="matrix(1.9294 0 0 1.8735 4403.5762 2386.7307)">
-							</image>
+							</image></a>
 						</svg>
 
 
@@ -10855,38 +10858,47 @@
                 </div>
  						
 				
-					<script>
-						function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
-							var popup = document.getElementById("popup");
-							var popupContent = document.getElementById("popup-content");
+					<div class="column right">
+						<div class="popup" id="popup">
+							<div class="popup-content" id="popup-content">
+					
+							</div>
+						</div>
+					
+						<script>
+							function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
+								var popup = document.getElementById("popup");
+								var popupContent = document.getElementById("popup-content");
 
-							// Set the content of the popup
-							popupContent.innerHTML = `
-													<h2>${map1}</h2>
-													<p>${map2}</p>
-													<p>${map3}</p>
-													<p>${map4}</p>
-													<p>${map5}</p>
-													<p>${map6}</p>
-													<p>${map7}</p>
-													<p>${map8}</p>
-													<p>${map9}</p>
-													<p>${map10}</p>
-													<p>${map11}</p>
-													<p>${map12}</p>
-												`;
+								// Set the content of the popup
+								popupContent.innerHTML = `
+																							<h2>${map1}</h2>
+																							<p>${map2}</p>
+																							<p>${map3}</p>
+																							<p>${map4}</p>
+																							<p>${map5}</p>
+																							<p>${map6}</p>
+																							<p>${map7}</p>
+																							<p>${map8}</p>
+																							<p>${map9}</p>
+																							<p>${map10}</p>
+																							<p>${map11}</p>
+																							<p>${map12}</p>
+																						`;
 
-							// Center the popup
-							popup.style.display = "flex";
+								// Center the popup
+								popup.style.display = "flex";
 
-							// Close the popup when clicking outside of it
-							popup.onclick = function (e) {
-								if (e.target === popup) {
-									popup.style.display = "none";
-								}
-							};
-						}
-					</script>
+								// Close the popup when clicking outside of it
+								popup.onclick = function (e) {
+									if (e.target === popup) {
+										popup.style.display = "none";
+									}
+								};
+							}
+						</script>
+					
+					</div>
 				
 				</div>
 </div>

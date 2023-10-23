@@ -8724,6 +8724,9 @@
 						wwENAAAAwqD3T20QYUMAAAAAAAAA/lQDAAD//+zDAQ0AAADCoPdPbRBhQwAAAAAAAAD+VAMAAP//
 						AwBT2ab+2dFO+AAAAABJRU5ErkJggg==" transform="matrix(0.6314 0 0 0.5711 3532.4802 2238.1721)">
 							</image>
+						<a href="#"
+							onclick="showPopup('	INITAO	','	Year:  	2024	','	Barangay:	CALACAPAN	','	Project Type:	MULTI-PURPOSE BUILDING	','	Project Name:	Construction of Multi-Purpose Building  Brgy. Calacapan  Initao  Misamis Oriental	','	Amount: 	5,000,000.00	','	Date of Bidding:		','	Project Cost:		','	ABC:		','	Contractor:		','	Accomplishment:		','	Status:	Proposed 2024	'	)">
+
 							<image style="overflow:visible;enable-background:new    ;" width="320" height="302" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUQAAAEpCAYAAADrgFtCAAAACXBIWXMAAAXYAAAF2AEJGiq9AAAg
 						AElEQVR4nOzRMQoAMQhE0ZmYSsj9r2llsxiXgDlCOj88LKeQ6Lp3jSIA5rHWmpk5rrOsqnT3JLlJ
 						nhsiEmb2AYiyS/a/uicB+AEAAP//7NTLCsJQDEXRxR34QItY/P8/9FW0pRSJXIjgUOd3w+FACBmF
@@ -9113,7 +9116,7 @@
 						j2R46/ZKkNX2KnMxsx8AAP//Gi0QRwE9ASi9MTo4ODB9/vwZnPZ+/PgBpjk4OMBdZ15e3v8HDhz4
 						h6U7PQpGAW0BAwMDAAAA//8axaNgFIyCUQACDAwMAAAAAP//AwChS1/vSK9zagAAAABJRU5ErkJg
 						gg==" transform="matrix(1.9097 0 0 1.8582 3857.3997 2537.5923)">
-							</image>
+							</image></a>
 							<image style="overflow:visible;enable-background:new    ;" width="1998" height="1950" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB8cAAAdvCAYAAAC01v9IAAAACXBIWXMAAGJsAABibAELYb+sAAAg
 						AElEQVR4nOzRMRXAIBQEwftFlGAjUR9soISCeAiPbkbANlsBAAAAtsyRuyrvn8Zaea6W7gAAAAAc
 						lOQDAAD//+zQsREAIBDDsIS1YXh24I9OGsCFl78AAAAw0+a8Btps+wEAAOCzJBcAAP//7NsxDQAh
@@ -11119,7 +11122,47 @@
                 </div>
 
 
+				<div class="column right">
+					<div class="popup" id="popup">
+						<div class="popup-content" id="popup-content">
+				
+						</div>
+					</div>
+				
+					<script>
+						function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
+							var popup = document.getElementById("popup");
+							var popupContent = document.getElementById("popup-content");
 
+							// Set the content of the popup
+							popupContent.innerHTML = `
+																						<h2>${map1}</h2>
+																						<p>${map2}</p>
+																						<p>${map3}</p>
+																						<p>${map4}</p>
+																						<p>${map5}</p>
+																						<p>${map6}</p>
+																						<p>${map7}</p>
+																						<p>${map8}</p>
+																						<p>${map9}</p>
+																						<p>${map10}</p>
+																						<p>${map11}</p>
+																						<p>${map12}</p>
+																					`;
+
+							// Center the popup
+							popup.style.display = "flex";
+
+							// Close the popup when clicking outside of it
+							popup.onclick = function (e) {
+								if (e.target === popup) {
+									popup.style.display = "none";
+								}
+							};
+						}
+					</script>
+				
+				</div>
 				
 					<script>
 						function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {

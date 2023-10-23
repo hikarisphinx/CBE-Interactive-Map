@@ -10512,6 +10512,9 @@
 						7MMBDQAAAMKg909tEGFDAAAAAAAAAH5VAwAA///swwENAAAAwqD3T20QYUMAAAAAAAAAflUDAAD/
 						/wMAK423hcnZjP8AAAAASUVORK5CYII=" transform="matrix(0.1527 0 0 0.1441 2045.5649 5138.8281)">
 							</image>
+						<a href="#"
+							onclick="showPopup('	LIBERTAD	','	Year:  	2024	','	Barangay:	DULONG	','	Project Type:	WATER SYSTEM	','	Project Name:	Construction of Water Supply System  Brgy. Dulong  Libertad  Misamis Oriental	','	Amount: 	5,000,000.00	','	Date of Bidding:		','	Project Cost:		','	ABC:		','	Contractor:		','	Accomplishment:		','	Status:	Proposed 2024	'	)">
+
 							<image style="overflow:visible;enable-background:new    ;" width="320" height="302" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUUAAAE0CAYAAAC7CiE5AAAACXBIWXMAAAP/AAAD/wGuK+TeAAAg
 						AElEQVR4nOzSywrCQBBE0eMIUdEgiv//hz5JlCDaMtALd+J+LlwKiqZWPdNo/E/9mwVW6LHFDofM
 						6j77DdZpvV+WUjrMUVK5GXinlVdEPCNiwj0dMeCKM06Zx8wLbnhg+tpqNH6DDwAAAP//7NQxCoAw
@@ -11052,7 +11055,7 @@
 						AAAA//8aLRRHAb0BKM0xOjg4MH3+/Bmc/n78+AGmOTg4wN1oXl5eMH3gwIF/0IJydHnLKKAPYGBg
 						AAAAAP//GsWjYBSMglEAAwwMDAAAAAD//xrFo2AUjIJRAAMMDAwAAAAA//8DABad59ZMne93AAAA
 						AElFTkSuQmCC" transform="matrix(2.8025 0 0 2.8107 4416.4712 2533.9426)">
-							</image>
+							</image></a>
 						</svg>
 
 
@@ -11064,38 +11067,47 @@
                 </div>
  						
 				
-					<script>
-						function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
-							var popup = document.getElementById("popup");
-							var popupContent = document.getElementById("popup-content");
+					<div class="column right">
+						<div class="popup" id="popup">
+							<div class="popup-content" id="popup-content">
+					
+							</div>
+						</div>
+					
+						<script>
+							function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
+								var popup = document.getElementById("popup");
+								var popupContent = document.getElementById("popup-content");
 
-							// Set the content of the popup
-							popupContent.innerHTML = `
-													<h2>${map1}</h2>
-													<p>${map2}</p>
-													<p>${map3}</p>
-													<p>${map4}</p>
-													<p>${map5}</p>
-													<p>${map6}</p>
-													<p>${map7}</p>
-													<p>${map8}</p>
-													<p>${map9}</p>
-													<p>${map10}</p>
-													<p>${map11}</p>
-													<p>${map12}</p>
-												`;
+								// Set the content of the popup
+								popupContent.innerHTML = `
+																							<h2>${map1}</h2>
+																							<p>${map2}</p>
+																							<p>${map3}</p>
+																							<p>${map4}</p>
+																							<p>${map5}</p>
+																							<p>${map6}</p>
+																							<p>${map7}</p>
+																							<p>${map8}</p>
+																							<p>${map9}</p>
+																							<p>${map10}</p>
+																							<p>${map11}</p>
+																							<p>${map12}</p>
+																						`;
 
-							// Center the popup
-							popup.style.display = "flex";
+								// Center the popup
+								popup.style.display = "flex";
 
-							// Close the popup when clicking outside of it
-							popup.onclick = function (e) {
-								if (e.target === popup) {
-									popup.style.display = "none";
-								}
-							};
-						}
-					</script>
+								// Close the popup when clicking outside of it
+								popup.onclick = function (e) {
+									if (e.target === popup) {
+										popup.style.display = "none";
+									}
+								};
+							}
+						</script>
+					
+					</div>
 				
 				</div>
 </div>

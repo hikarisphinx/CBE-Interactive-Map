@@ -8567,6 +8567,9 @@
 						AAAAAP//GsWjYBSMgpELGBgYAAAAAP//GsWjYBSMgpELGBgYAAAAAP//AwASHHPexnxAMAAAAABJ
 						RU5ErkJggg==" transform="matrix(0.6779 0 0 0.6779 8.98 3413.9448)">
 							</image>
+						<a href="#"
+							onclick="showPopup('	GITAGUM	','	Year:  	2023	','	Barangay:	MATANGAD	','	Project Type:	WATER SYSTEM	','	Project Name:	Rehabilitation of Water System  Barangay Matangad  Gitagum  Misamis Oriental	','	Amount: 	5,000,000.00	','	Date of Bidding:	.	','	Project Cost:	4,189,305.54	','	ABC:	4,950,000.00	','	Contractor:	San Roque Fabela Civil Engng. Const.	','	Accomplishment:	60.00%	','	Status:	PROJECT ON-GOING	'	)">
+
 							<image style="overflow:visible;enable-background:new    ;" width="321" height="304" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUYAAAEdCAYAAABwns7EAAAACXBIWXMAAAR1AAAEdQEQhIuqAAAg
 						AElEQVR4nOzRMQoAMQhE0ZmYSsj9r2llsxiXgDlCOj88LKeQ6Lq3jSIA5rHWmpk5rrOuqnT3JLlJ
 						nhsiEmb2AYiyS/bPumcB+AEAAP//7NRJCkJRDETRwxvYoCKK+9+hLTZ8RCIfSnAojt+FIiEkNQrV
@@ -9077,7 +9080,7 @@
 						zAyluxDYTtk09LhU+0NfdD31iqT0WWb2AgAA//8aLRhHAb0BKM0xOjg4MH3+/Bmc/n78+AGmOTg4
 						wF1qXl7e/wcOHPgHLShHl72MAvoCBgYGAAAAAP//GsWjYBSMglGADBgYGAAAAAD//xrFo2AUjIJR
 						gAwYGBgAAAAA//8DAHwzbS156w5bAAAAAElFTkSuQmCC" transform="matrix(2.5129 0 0 2.3245 4061.0029 2038.1514)">
-							</image>
+							</image></a>
 							<image style="overflow:visible;enable-background:new    ;" width="1998" height="1889" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB80AAAb1CAYAAAC5flEQAAAACXBIWXMAAEiWAABIlgEPLCkAAAAg
 						AElEQVR4nOzRMRHAIBQFwfeLOMEJtjNxghJmSBykg2pXwDVXAQAAALaZI70q91//XelXy+MCAAAA
 						HJbkAwAA///s0bERACAQAkGewg2s3BKMHJPdAi6A2hwAAADemWbf4tMsFwAAAMAHSQ4AAAD//+zZ
@@ -10967,38 +10970,56 @@
                 </div>
  						
 				
-					<script>
-						function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
-							var popup = document.getElementById("popup");
-							var popupContent = document.getElementById("popup-content");
+					<div class="column right">
+						<div class="popup" id="popup">
+							<div class="popup-content" id="popup-content">
+					
+							</div>
+						</div>
+					
+						<div class="column right">
+							<div class="popup" id="popup">
+								<div class="popup-content" id="popup-content">
+						
+								</div>
+							</div>
+						
+							<script>
+								function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
+									var popup = document.getElementById("popup");
+									var popupContent = document.getElementById("popup-content");
 
-							// Set the content of the popup
-							popupContent.innerHTML = `
-													<h2>${map1}</h2>
-													<p>${map2}</p>
-													<p>${map3}</p>
-													<p>${map4}</p>
-													<p>${map5}</p>
-													<p>${map6}</p>
-													<p>${map7}</p>
-													<p>${map8}</p>
-													<p>${map9}</p>
-													<p>${map10}</p>
-													<p>${map11}</p>
-													<p>${map12}</p>
-												`;
+									// Set the content of the popup
+									popupContent.innerHTML = `
+																								<h2>${map1}</h2>
+																								<p>${map2}</p>
+																								<p>${map3}</p>
+																								<p>${map4}</p>
+																								<p>${map5}</p>
+																								<p>${map6}</p>
+																								<p>${map7}</p>
+																								<p>${map8}</p>
+																								<p>${map9}</p>
+																								<p>${map10}</p>
+																								<p>${map11}</p>
+																								<p>${map12}</p>
+																							`;
 
-							// Center the popup
-							popup.style.display = "flex";
+									// Center the popup
+									popup.style.display = "flex";
 
-							// Close the popup when clicking outside of it
-							popup.onclick = function (e) {
-								if (e.target === popup) {
-									popup.style.display = "none";
+									// Close the popup when clicking outside of it
+									popup.onclick = function (e) {
+										if (e.target === popup) {
+											popup.style.display = "none";
+										}
+									};
 								}
-							};
-						}
-					</script>
+							</script>
+						
+						</div>
+					
+					</div>
 				
 				</div>
 </div>

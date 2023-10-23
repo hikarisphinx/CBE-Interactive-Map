@@ -10440,6 +10440,9 @@
 						w6D1T/0eR0EBAAAAAAAA+FUNAAD//+zDAQkAAADDoPVP/R5HQQEAAAAAAAD4VQ0AAP//AwC7xHJf
 						cGv58AAAAABJRU5ErkJggg==" transform="matrix(0.8345 0 0 0.8083 3347.0637 1350.5919)">
 							</image>
+						<a href="#"
+							onclick="showPopup('	OPOL	','	Year:  	2024	','	Barangay:	IGPIT	','	Project Type:	MULTI-PURPOSE BUILDING	','	Project Name:	Construction (Completion) of Multi-Purpose Building  Brgy. Igpit  Opol  Misamis Oriental	','	Amount: 	3,000,000.00	','	Date of Bidding:		','	Project Cost:		','	ABC:		','	Contractor:		','	Accomplishment:		','	Status:	Proposed 2024	'	)">
+
 							<image style="overflow:visible;enable-background:new    ;" width="323" height="305" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUcAAAErCAYAAABNf0FKAAAACXBIWXMAAAR1AAAEdQEQhIuqAAAg
 						AElEQVR4nOzTwUvCcADF8c82VssoISrYrfAURLCD+P+DdyGFTsHoNKIIRJlrs18URuK/oF94vPN7
 						vBc5sI8c4RK3uMcD7nCDK/Q2ncQ73QQ0WOADb6iGw2E9Go3WRVEkg8Egy/O81+/3z7Msy9I0PU2S
@@ -10830,7 +10833,7 @@
 						AAD//xotHEfBQABQumN0cHBg+vz5MzgN/vjxA0xzcHCAu9e8vLz/Dxw48A9Ll3sUjALaAwYGBgAA
 						AAD//xrFo2AUjIJRgA4YGBgAAAAA//8axaNgFIyCUYAOGBgYAAAAAP//GsWjYBSMglGADhgYGAAA
 						AAD//wMA4YBv8fdxsnwAAAAASUVORK5CYII=" transform="matrix(2.5103 0 0 2.4253 3774.0901 1760.0157)">
-							</image>
+							</image></a>
 						</svg>
 
 
@@ -10842,38 +10845,47 @@
                 </div>
  						
 				
-					<script>
-						function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
-							var popup = document.getElementById("popup");
-							var popupContent = document.getElementById("popup-content");
+					<div class="column right">
+						<div class="popup" id="popup">
+							<div class="popup-content" id="popup-content">
+					
+							</div>
+						</div>
+					
+						<script>
+							function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
+								var popup = document.getElementById("popup");
+								var popupContent = document.getElementById("popup-content");
 
-							// Set the content of the popup
-							popupContent.innerHTML = `
-													<h2>${map1}</h2>
-													<p>${map2}</p>
-													<p>${map3}</p>
-													<p>${map4}</p>
-													<p>${map5}</p>
-													<p>${map6}</p>
-													<p>${map7}</p>
-													<p>${map8}</p>
-													<p>${map9}</p>
-													<p>${map10}</p>
-													<p>${map11}</p>
-													<p>${map12}</p>
-												`;
+								// Set the content of the popup
+								popupContent.innerHTML = `
+																							<h2>${map1}</h2>
+																							<p>${map2}</p>
+																							<p>${map3}</p>
+																							<p>${map4}</p>
+																							<p>${map5}</p>
+																							<p>${map6}</p>
+																							<p>${map7}</p>
+																							<p>${map8}</p>
+																							<p>${map9}</p>
+																							<p>${map10}</p>
+																							<p>${map11}</p>
+																							<p>${map12}</p>
+																						`;
 
-							// Center the popup
-							popup.style.display = "flex";
+								// Center the popup
+								popup.style.display = "flex";
 
-							// Close the popup when clicking outside of it
-							popup.onclick = function (e) {
-								if (e.target === popup) {
-									popup.style.display = "none";
-								}
-							};
-						}
-					</script>
+								// Close the popup when clicking outside of it
+								popup.onclick = function (e) {
+									if (e.target === popup) {
+										popup.style.display = "none";
+									}
+								};
+							}
+						</script>
+					
+					</div>
 				
 				</div>
 </div>

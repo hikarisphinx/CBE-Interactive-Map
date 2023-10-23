@@ -6666,6 +6666,8 @@
 						L19bWcga+NHEAtjIv2tnURSrTugxIoJCrKD3mjJhwgRTc3Nz4H3ndDoDz3a7PbAsdjgc6tq1a/0s
 						ihJzJwiCIAhRBcD/B0JBgOBr5TJgAAAAAElFTkSuQmCC" transform="matrix(0.6779 0 0 0.6779 12.56 3256.8601)">
 							</image>
+						<a href="#"
+							onclick="showPopup('	OPOL	','	Year:  	2023	','	Barangay:	MALANANG	','	Project Type:	MULTI-PURPOSE BUILDING	','	Project Name:	Construction of Multi-Purpose Building  Barangay Malanang  Opol  Misamis Oriental	','	Amount: 	5,000,000.00	','	Date of Bidding:	11/22/2022	','	Project Cost:	4,478,023.40	','	ABC:	4,950,000.00	','	Contractor:	Cagalawan Enterprises	','	Accomplishment:	78.00%	','	Status:	Project on-going	'	)">
 							<image style="overflow:visible;enable-background:new    ;" width="320" height="310" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUEAAAEuCAYAAAAQrKC+AAAACXBIWXMAAAWwAAAFsAFAmUYlAAAg
 						AElEQVR4nOzSWwrCQBBE0ZMJRCWKKO5/h/GFD4Joy0D/6wLmwqWgaOqrO43G/9R/WWCFDbbY4ZBZ
 						3We/xpjW+2UpZUCPksrNwCd9R8QrImY80jtuuOCEY+aUecYVT8y502j8Bl8AAAD//+zUMQqAMBBE
@@ -7060,7 +7062,10 @@
 						//8aLQRHAb0AKK0xOjg4MH3+/Bmc7n78+AGmOTg4wN1iXl7e/wcOHPiHpas8CkYBbQADAwMAAAD/
 						/xrFo2AUjIKRCxgYGAAAAAD//xrFo2AUjIKRCxgYGAAAAAD//wMAx/aH5W7flsAAAAAASUVORK5C
 						YII=" transform="matrix(1.9461 0 0 1.8897 4171.2183 2040.4392)">
-							</image>
+							</image></a>
+						<a href="#"
+							onclick="showPopup('	OPOL	','	Year:  	2023	','	Barangay:	MALANANG	','	Project Type:	ROAD	','	Project Name:	Access Road leading to Malanang Ostrich Farm  Brgy. Malanang  Opol  Misamis Oriental	','	Amount: 	46,000,000.00	','	Date of Bidding:	12/5/2022	','	Project Cost:	44,177,325.14	','	ABC:	45,080,000.00	','	Contractor:	Jejors Const. Corp.	','	Accomplishment:	20.50%	','	Status:	Project on-going	'	)">
+
 							<image style="overflow:visible;enable-background:new    ;" width="320" height="317" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUUAAAFCCAYAAABmcc/lAAAACXBIWXMAAAXYAAAF2AEJGiq9AAAg
 						AElEQVR4nOzRMQoAMQhE0ZmYSsj9r2llsxiXgDlCOj88LKeQ6Lp3jSIA5rHWmpk5rrOsqnT3JLlJ
 						nhsiEmb2AYiyS/a/umcB+AEAAP//7NRJCgJBEETRRy0cUBHF+9/QEQcakZSGEFzqvj4EAUkRq+J3
@@ -7607,7 +7612,7 @@
 						gA2S05nC+zKza+p2Se0Sj4R46/ZKklatrzIdM/sBAAD//xotFEcBPQEovTE6ODgwff78GZz2fvz4
 						AaY5ODjA3WheXt7/Bw4c+Ielaz0KRgHtAQMDAwAAAP//GsWjYBSMglEAAwwMDAAAAAD//xrFo2AU
 						jIJRAAMMDAwAAAAA//8DAGVVHqf2bJL8AAAAAElFTkSuQmCC" transform="matrix(1.9179 0 0 1.9179 3170.6313 3132.5229)">
-							</image>
+							</image></a>
 							<image style="overflow:visible;enable-background:new    ;" width="1997" height="1883" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB80AAAdbCAYAAAA8Hyo6AAAACXBIWXMAAEiWAABIlgEPLCkAAAAg
 						AElEQVR4nOzRMRHAIBQFwfeLOMEJtjNxghJmSBykg2rXwBVXAQAAALaaI70q91/jXelXy+MEAAAA
 						HJTkAwAA///s0bENACAQA7F8Bqdgckaggspe4KSk9gYAAIC3ptm3wDTLDQAAAPBZkgMAAP//7Nkh
@@ -9593,38 +9598,47 @@
                 </div>
  						
 				
-					<script>
-						function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
-							var popup = document.getElementById("popup");
-							var popupContent = document.getElementById("popup-content");
+					<div class="column right">
+						<div class="popup" id="popup">
+							<div class="popup-content" id="popup-content">
+					
+							</div>
+						</div>
+					
+						<script>
+							function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
+								var popup = document.getElementById("popup");
+								var popupContent = document.getElementById("popup-content");
 
-							// Set the content of the popup
-							popupContent.innerHTML = `
-													<h2>${map1}</h2>
-													<p>${map2}</p>
-													<p>${map3}</p>
-													<p>${map4}</p>
-													<p>${map5}</p>
-													<p>${map6}</p>
-													<p>${map7}</p>
-													<p>${map8}</p>
-													<p>${map9}</p>
-													<p>${map10}</p>
-													<p>${map11}</p>
-													<p>${map12}</p>
-												`;
+								// Set the content of the popup
+								popupContent.innerHTML = `
+																							<h2>${map1}</h2>
+																							<p>${map2}</p>
+																							<p>${map3}</p>
+																							<p>${map4}</p>
+																							<p>${map5}</p>
+																							<p>${map6}</p>
+																							<p>${map7}</p>
+																							<p>${map8}</p>
+																							<p>${map9}</p>
+																							<p>${map10}</p>
+																							<p>${map11}</p>
+																							<p>${map12}</p>
+																						`;
 
-							// Center the popup
-							popup.style.display = "flex";
+								// Center the popup
+								popup.style.display = "flex";
 
-							// Close the popup when clicking outside of it
-							popup.onclick = function (e) {
-								if (e.target === popup) {
-									popup.style.display = "none";
-								}
-							};
-						}
-					</script>
+								// Close the popup when clicking outside of it
+								popup.onclick = function (e) {
+									if (e.target === popup) {
+										popup.style.display = "none";
+									}
+								};
+							}
+						</script>
+					
+					</div>
 				
 				</div>
 </div>

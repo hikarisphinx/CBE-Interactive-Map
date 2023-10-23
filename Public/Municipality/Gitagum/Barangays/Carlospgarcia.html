@@ -9983,6 +9983,9 @@
 						wwENAAAAwqD3T20QYUMAAAAAAAAA7lUNAAD//+zDAQ0AAADCoPdPbRBhQwAAAAAAAADuVQ0AAP//
 						AwAIUQhYYRmUaQAAAABJRU5ErkJggg==" transform="matrix(0.8582 0 0 0.7417 3091.1392 1501.1833)">
 							</image>
+							<a href="#"
+								onclick="showPopup('	GITAGUM	','	Year:  	2024	','	Barangay:	C.P. GARCIA	','	Project Type:	MULTI-PURPOSE BUILDING	','	Project Name:	Construction of Multi-Purpose Building  Brgy. C.P. Garcia  Gitagum  Misamis Oriental	','	Amount: 	4,000,000.00	','	Date of Bidding:		','	Project Cost:		','	ABC:		','	Contractor:		','	Accomplishment:		','	Status:	Proposed 2024	'	)">
+
 							<image style="overflow:visible;enable-background:new    ;" width="321" height="304" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT0AAAERCAYAAAAJ9XDQAAAACXBIWXMAAAQmAAAEJgELCP9kAAAg
 						AElEQVR4nGIYBaNgFIyCEQMYGBgAAAAA///s0lsKwlAMRdHlFVqlFqk4Auc/Na2KD4popJBvcQB3
 						w+ZACOcnWdRrV/5g/pMWa/TYYsAeB+xytkGXzrurUkqDJUoq+wKf9B0Rr4iY8EjvuOGCEafMY+YZ
@@ -10340,7 +10343,7 @@
 						//8aLfRGAS0BKH0xOjg4MH3+/Bmc1n78+AGmOTg4wN1cXl7e/wcOHPgHLQRHl4CMAtoCBgYGAAAA
 						AP//GsWjYBSMgpEDGBgYAAAAAP//GsWjYBSMgpEDGBgYAAAAAP//AwDg5HtaTYAvZgAAAABJRU5E
 						rkJggg==" transform="matrix(2.6322 0 0 2.3883 3525.5396 1874.6138)">
-							</image>
+							</image></a>
 							<image style="overflow:visible;enable-background:new    ;" width="1998" height="1889" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB8wAAAb3CAYAAAAbdJslAAAACXBIWXMAAEiWAABIlgEPLCkAAAAg
 						AElEQVR4nOzQMRGAMADAwHTACGZqmcMMQhiKAVaO5V9AhowAAACAT9xXc6yOt/aque2dzgMAAMBP
 						qgcAAP//7NCxEQAgDMSwD4uHzWECSi6NNIALL+8BAADgjzrpV7iSbTsAAAAMSnIBAAD//+zZIRUA
@@ -12234,38 +12237,47 @@
                 </div>
  						
 				
-					<script>
-						function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
-							var popup = document.getElementById("popup");
-							var popupContent = document.getElementById("popup-content");
+					<div class="column right">
+						<div class="popup" id="popup">
+							<div class="popup-content" id="popup-content">
+					
+							</div>
+						</div>
+					
+						<script>
+							function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
+								var popup = document.getElementById("popup");
+								var popupContent = document.getElementById("popup-content");
 
-							// Set the content of the popup
-							popupContent.innerHTML = `
-													<h2>${map1}</h2>
-													<p>${map2}</p>
-													<p>${map3}</p>
-													<p>${map4}</p>
-													<p>${map5}</p>
-													<p>${map6}</p>
-													<p>${map7}</p>
-													<p>${map8}</p>
-													<p>${map9}</p>
-													<p>${map10}</p>
-													<p>${map11}</p>
-													<p>${map12}</p>
-												`;
+								// Set the content of the popup
+								popupContent.innerHTML = `
+																							<h2>${map1}</h2>
+																							<p>${map2}</p>
+																							<p>${map3}</p>
+																							<p>${map4}</p>
+																							<p>${map5}</p>
+																							<p>${map6}</p>
+																							<p>${map7}</p>
+																							<p>${map8}</p>
+																							<p>${map9}</p>
+																							<p>${map10}</p>
+																							<p>${map11}</p>
+																							<p>${map12}</p>
+																						`;
 
-							// Center the popup
-							popup.style.display = "flex";
+								// Center the popup
+								popup.style.display = "flex";
 
-							// Close the popup when clicking outside of it
-							popup.onclick = function (e) {
-								if (e.target === popup) {
-									popup.style.display = "none";
-								}
-							};
-						}
-					</script>
+								// Close the popup when clicking outside of it
+								popup.onclick = function (e) {
+									if (e.target === popup) {
+										popup.style.display = "none";
+									}
+								};
+							}
+						</script>
+					
+					</div>
 				
 				</div>
 </div>

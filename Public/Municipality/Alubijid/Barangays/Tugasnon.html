@@ -10029,6 +10029,9 @@
 						AMKg909tEGFDAAAAAAAAAH5VAwAA///swwENAAAAwqD3T20QYUMAAAAAAAAAflUDAAD//wMAyOZx
 						nhQ6BOAAAAAASUVORK5CYII=" transform="matrix(0.6982 0 0 0.674 3614.1499 1801.4509)">
 							</image>
+						<a href="#"
+							onclick="showPopup('	ALUBIJID	','	Year:  	2024	','	Barangay:	TUGASNON	','	Project Type:	ROAD	','	Project Name:	Construction of Road Barangay Sungay to Tugasnon Hot Spring  Brgy. Tugasnon  Alubijid  Misamis Oriental	','	Amount: 	40,000,000.00	','	Date of Bidding:		','	Project Cost:		','	ABC:		','	Contractor:		','	Accomplishment:		','	Status:	Proposed 2024	'	)">
+
 							<image style="overflow:visible;enable-background:new    ;" width="319" height="321" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAAEaCAYAAACIBTsQAAAACXBIWXMAAASdAAAEnQF8NGuhAAAg
 						AElEQVR4nGIYBaNgFIyCEQUYGBgAAAAA///s0l0KwkAMReGvU6hKFVHc/wrrL4oU0chA3nUBc+Bw
 						IYT7knTt4o0/qH+ywAobbLHDIbO6z/kaY1r3l6WUAT1KKjsDn/QdEa+ImDHhgTuuOOOUecy84IYn
@@ -10515,7 +10518,7 @@
 						1t4GoHXpkckvATAJsuYSbG9mHqqntyB36qhw6VDz6IXTV+mtNCwz+wEAAP//Gi34RgGtASiNMTo4
 						ODB9/vwZnN5+/PgBpjk4OMBdXl5e3v8HDhz4h6UbPApGAfUBAwMDAAAA//8axaNgFIyCkQUYGBgA
 						AAAA//8DABp3tK6RvGiJAAAAAElFTkSuQmCC" transform="matrix(2.3891 0 0 2.1023 3931.2817 2170.2375)">
-							</image>
+							</image></a>
 							<g>
 								<text transform="matrix(1 0 0 1 49.8201 152.97)" class="st1 st6">Alubijid</text>
 							</g>
@@ -11654,38 +11657,47 @@
                     </div>
                 </div>
  						
-					<script>
-						function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
-							var popup = document.getElementById("popup");
-							var popupContent = document.getElementById("popup-content");
+					<div class="column right">
+						<div class="popup" id="popup">
+							<div class="popup-content" id="popup-content">
+					
+							</div>
+						</div>
+					
+						<script>
+							function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
+								var popup = document.getElementById("popup");
+								var popupContent = document.getElementById("popup-content");
 
-							// Set the content of the popup
-							popupContent.innerHTML = `
-													<h2>${map1}</h2>
-													<p>${map2}</p>
-													<p>${map3}</p>
-													<p>${map4}</p>
-													<p>${map5}</p>
-													<p>${map6}</p>
-													<p>${map7}</p>
-													<p>${map8}</p>
-													<p>${map9}</p>
-													<p>${map10}</p>
-													<p>${map11}</p>
-													<p>${map12}</p>
-												`;
+								// Set the content of the popup
+								popupContent.innerHTML = `
+																							<h2>${map1}</h2>
+																							<p>${map2}</p>
+																							<p>${map3}</p>
+																							<p>${map4}</p>
+																							<p>${map5}</p>
+																							<p>${map6}</p>
+																							<p>${map7}</p>
+																							<p>${map8}</p>
+																							<p>${map9}</p>
+																							<p>${map10}</p>
+																							<p>${map11}</p>
+																							<p>${map12}</p>
+																						`;
 
-							// Center the popup
-							popup.style.display = "flex";
+								// Center the popup
+								popup.style.display = "flex";
 
-							// Close the popup when clicking outside of it
-							popup.onclick = function (e) {
-								if (e.target === popup) {
-									popup.style.display = "none";
-								}
-							};
-						}
-					</script>
+								// Close the popup when clicking outside of it
+								popup.onclick = function (e) {
+									if (e.target === popup) {
+										popup.style.display = "none";
+									}
+								};
+							}
+						</script>
+					
+					</div>
 				
 				</div>
 </div>

@@ -10222,6 +10222,9 @@
 						AAD4Vw0AAP//7MMBCQAAAMOg9U/9HkdBAQAAAAAAAPhXDQAA///swwEJAAAAw6D1T/0eR0EBAAAA
 						AAAA+FcNAAD//wMAncoaRIstjJ8AAAAASUVORK5CYII=" transform="matrix(0.4301 0 0 0.4123 3501.635 1470.1544)">
 							</image>
+						<a href="#"
+							onclick="showPopup('	JASAAN	','	Year:  	2024	','	Barangay:	SAN NICOLAS	','	Project Type:	WATER SYSTEM	','	Project Name:	Construction of Water Supply System, San Nicolas, Jasaan, Misamis Oriental	','	Amount: 	5,000,000.00	','	Date of Bidding:		','	Project Cost:		','	ABC:		','	Contractor:		','	Accomplishment:		','	Status:	Proposed 2024	'	)">
+		
 							<image style="overflow:visible;enable-background:new    ;" width="320" height="286" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT8AAAEOCAYAAAD/gBCjAAAACXBIWXMAAAacAAAGnAE6aEwCAAAg
 						AElEQVR4nGIYBaNgFIyCEQcYGBgAAAAA///s0sEGhFAAheEvkQy1SFoMzfs/V1G0iRSJ0Rjuol6g
 						1f03v3O25yRx9ciFDCVqvNHiE/zPDSoUeCFHiqd+dOKLAxtWzJgwokcXPIR+wR5HjtzADwAA///s
@@ -10701,7 +10704,8 @@
 						Ojg4MH3+/Bmc3n78+AGmOTg4wC1AXl7e/wcOHPiHpVU4CkYBbQADAwMAAAD//xrFo2AUjIKRBxgY
 						GAAAAAD//xrFo2AUjIKRBxgYGAAAAAD//xrFo2AUjIKRBxgYGAAAAAD//wMAl0Q4b4RdAzgAAAAA
 						SUVORK5CYII=" transform="matrix(1.6671 0 0 1.5745 3664.0671 1667.9275)">
-							</image>
+							</image></a>
+
 							<image style="overflow:visible;enable-background:new    ;" width="2000" height="1886" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB84AAAbyCAYAAABPTNqrAAAACXBIWXMAAEiWAABIlgEPLCkAAAAg
 						AElEQVR4nOzRMRHAIBQFwfeLOMEJtjNxghJmSBykg2rXwBVXAQAAALaaI70q91/jXelXy+MEAAAA
 						HJbkAwAA///s0bENACAQA7F8BqdgckagQjT2AicltTkAAAC8Nc2+BaZZbgAAAIAPkhwAAAD//+zZ
@@ -12585,38 +12589,47 @@
                 </div>
  						
 				
-					<script>
-						function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
-							var popup = document.getElementById("popup");
-							var popupContent = document.getElementById("popup-content");
+					<div class="column right">
+						<div class="popup" id="popup">
+							<div class="popup-content" id="popup-content">
+					
+							</div>
+						</div>
+					
+						<script>
+							function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
+								var popup = document.getElementById("popup");
+								var popupContent = document.getElementById("popup-content");
 
-							// Set the content of the popup
-							popupContent.innerHTML = `
-													<h2>${map1}</h2>
-													<p>${map2}</p>
-													<p>${map3}</p>
-													<p>${map4}</p>
-													<p>${map5}</p>
-													<p>${map6}</p>
-													<p>${map7}</p>
-													<p>${map8}</p>
-													<p>${map9}</p>
-													<p>${map10}</p>
-													<p>${map11}</p>
-													<p>${map12}</p>
-												`;
+								// Set the content of the popup
+								popupContent.innerHTML = `
+																		<h2>${map1}</h2>
+																		<p>${map2}</p>
+																		<p>${map3}</p>
+																		<p>${map4}</p>
+																		<p>${map5}</p>
+																		<p>${map6}</p>
+																		<p>${map7}</p>
+																		<p>${map8}</p>
+																		<p>${map9}</p>
+																		<p>${map10}</p>
+																		<p>${map11}</p>
+																		<p>${map12}</p>
+																	`;
 
-							// Center the popup
-							popup.style.display = "flex";
+								// Center the popup
+								popup.style.display = "flex";
 
-							// Close the popup when clicking outside of it
-							popup.onclick = function (e) {
-								if (e.target === popup) {
-									popup.style.display = "none";
-								}
-							};
-						}
-					</script>
+								// Close the popup when clicking outside of it
+								popup.onclick = function (e) {
+									if (e.target === popup) {
+										popup.style.display = "none";
+									}
+								};
+							}
+						</script>
+					
+					</div>
 				
 				</div>
 </div>

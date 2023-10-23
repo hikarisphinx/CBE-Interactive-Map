@@ -12225,6 +12225,9 @@
 						AADCoPdPbRBhQwAAAAAAAADuVQ0AAP//AwAWpAmbFUZBMQAAAABJRU5ErkJggg=="
 								transform="matrix(0.2461 0 0 0.2403 4399.6294 2899.3203)">
 							</image>
+						<a href="#"
+							onclick="showPopup('	NAAWAN	','	Year:  	2024	','	Barangay:	LUBILAN	','	Project Type:	ROAD	','	Project Name:	Construction of Road leading to Bulyok and Mahangob Waterpark  Brgy. Lubilan  Naawan  Misamis Oriental	','	Amount: 	60,000,000.00	','	Date of Bidding:		','	Project Cost:		','	ABC:		','	Contractor:		','	Accomplishment:		','	Status:	Proposed 2024	'	)">
+
 							<image style="overflow:visible;enable-background:new    ;" width="327" height="316" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUYAAAEdCAYAAABwns7EAAAACXBIWXMAAA3+AAAN/gEmzVBtAAAg
 						AElEQVR4nOzTuQoCUQyF4U/vuBdWYjGgjeL7v45YCDKFlqK4zahcuYWC+ALODwdCyEIS0lDzj8S7
 						D9LcI0wxxwIzTDDGED00f+yoxA0nnJOifXzzXXCNcXmehyzLHiGEV3JVVcqybBRFEeu00EYH3dS7
@@ -12680,7 +12683,7 @@
 						AP//GsWjYBSMglGADBgYGAAAAAD//xrFo2AUjIJRgAwYGBgAAAAA//8axaNgFIyCUYAMGBgYAAAA
 						AP//GsWjYBSMglGADBgYGAAAAAD//xrFo2AUjIJRgAwYGBgAAAAA//8axaNgFIyCUYAMGBgYAAAA
 						AP//GsWjYBSMglGADBgYGAAAAAD//wMA+0MQow+7YOEAAAAASUVORK5CYII=" transform="matrix(0.7906 0 0 0.7131 4516.229 3039.9722)">
-							</image>
+							</image></a>
 						</svg>
 
 
@@ -12691,38 +12694,47 @@
                 </div>
  						
 				
-					<script>
-						function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
-							var popup = document.getElementById("popup");
-							var popupContent = document.getElementById("popup-content");
+					<div class="column right">
+						<div class="popup" id="popup">
+							<div class="popup-content" id="popup-content">
+					
+							</div>
+						</div>
+					
+						<script>
+							function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
+								var popup = document.getElementById("popup");
+								var popupContent = document.getElementById("popup-content");
 
-							// Set the content of the popup
-							popupContent.innerHTML = `
-													<h2>${map1}</h2>
-													<p>${map2}</p>
-													<p>${map3}</p>
-													<p>${map4}</p>
-													<p>${map5}</p>
-													<p>${map6}</p>
-													<p>${map7}</p>
-													<p>${map8}</p>
-													<p>${map9}</p>
-													<p>${map10}</p>
-													<p>${map11}</p>
-													<p>${map12}</p>
-												`;
+								// Set the content of the popup
+								popupContent.innerHTML = `
+																							<h2>${map1}</h2>
+																							<p>${map2}</p>
+																							<p>${map3}</p>
+																							<p>${map4}</p>
+																							<p>${map5}</p>
+																							<p>${map6}</p>
+																							<p>${map7}</p>
+																							<p>${map8}</p>
+																							<p>${map9}</p>
+																							<p>${map10}</p>
+																							<p>${map11}</p>
+																							<p>${map12}</p>
+																						`;
 
-							// Center the popup
-							popup.style.display = "flex";
+								// Center the popup
+								popup.style.display = "flex";
 
-							// Close the popup when clicking outside of it
-							popup.onclick = function (e) {
-								if (e.target === popup) {
-									popup.style.display = "none";
-								}
-							};
-						}
-					</script>
+								// Close the popup when clicking outside of it
+								popup.onclick = function (e) {
+									if (e.target === popup) {
+										popup.style.display = "none";
+									}
+								};
+							}
+						</script>
+					
+					</div>
 				
 				</div>
 </div>

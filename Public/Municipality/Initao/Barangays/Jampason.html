@@ -6677,6 +6677,9 @@
 						L19bWcga+NHEAtjIv2tnURSrTugxIoJCrKD3mjJhwgRTc3Nz4H3ndDoDz3a7PbAsdjgc6tq1a/0s
 						ihJzJwiCIAhRBcD/B0JBgOBr5TJgAAAAAElFTkSuQmCC" transform="matrix(0.6779 0 0 0.6779 65.42 3100.75)">
 							</image>
+						<a href="#"
+							onclick="showPopup('	INITAO	','	Year:  	2023	','	Barangay:	Jampason	','	Project Type:	ROAD	','	Project Name:	Concreting of Brgy. Jampason FMR  Brgy. Jampason  Initao  Misamis Oriental	','	Amount: 	12,000,000.00	','	Date of Bidding:		','	Project Cost:	12,000,000.00	','	ABC:		','	Contractor:		','	Accomplishment:		','	Status:	For Implementation	'	)">
+
 							<image style="overflow:visible;enable-background:new    ;" width="322" height="316" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUEAAAESCAYAAABjFGdoAAAACXBIWXMAAAP/AAAD/wGuK+TeAAAg
 						AElEQVR4nOzRMQ7AMAhDUQOZkLj/NZlY0oQqEr1Bs/GlN3swoevuxEUAjMPMRmby56yqKkVEEtFm
 						5kdElrtPAKvskv1T93sAXgAAAP//7NS5CkJBEETRwwQuqIji//+hvqe4MBiMDJS55nOhKGiajpo7
@@ -7152,7 +7155,7 @@
 						BEcBvQAorTE6ODgwff78GZzufvz4AaY5ODjA3eKzZ8/+hRaIo8tNRgF9AAMDAwAAAP//GsWjYBSM
 						gpELGBgYAAAAAP//GsWjYBSMgpELGBgYAAAAAP//AwCC2k9fwZZEggAAAABJRU5ErkJggg=="
 								transform="matrix(2.7516 0 0 2.389 3903.5 1273.9026)">
-							</image>
+							</image></a>
 							<image style="overflow:visible;enable-background:new    ;" width="1998" height="1950" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB84AAAeeCAYAAACWDR4+AAAACXBIWXMAAGKUAABilAEuxU9tAAAg
 						AElEQVR4nOzRMRXAIBQEwftFhOAE57woQQgFWEgTqhkDW2wFAAAA+N2a6bUzvnR2pT8trysAAABw
 						QZIDAAD//+zQwQkAMAwDMaeDZ/TQFQKlP+l9YPDxMwAAAPxXk96OVPYtAAAA8CjJBQAA///s2yEB
@@ -9196,38 +9199,47 @@
 
 
 				
-					<script>
-						function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
-							var popup = document.getElementById("popup");
-							var popupContent = document.getElementById("popup-content");
+					<div class="column right">
+						<div class="popup" id="popup">
+							<div class="popup-content" id="popup-content">
+					
+							</div>
+						</div>
+					
+						<script>
+							function showPopup(map1, map2, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12) {
+								var popup = document.getElementById("popup");
+								var popupContent = document.getElementById("popup-content");
 
-							// Set the content of the popup
-							popupContent.innerHTML = `
-													<h2>${map1}</h2>
-													<p>${map2}</p>
-													<p>${map3}</p>
-													<p>${map4}</p>
-													<p>${map5}</p>
-													<p>${map6}</p>
-													<p>${map7}</p>
-													<p>${map8}</p>
-													<p>${map9}</p>
-													<p>${map10}</p>
-													<p>${map11}</p>
-													<p>${map12}</p>
-												`;
+								// Set the content of the popup
+								popupContent.innerHTML = `
+																							<h2>${map1}</h2>
+																							<p>${map2}</p>
+																							<p>${map3}</p>
+																							<p>${map4}</p>
+																							<p>${map5}</p>
+																							<p>${map6}</p>
+																							<p>${map7}</p>
+																							<p>${map8}</p>
+																							<p>${map9}</p>
+																							<p>${map10}</p>
+																							<p>${map11}</p>
+																							<p>${map12}</p>
+																						`;
 
-							// Center the popup
-							popup.style.display = "flex";
+								// Center the popup
+								popup.style.display = "flex";
 
-							// Close the popup when clicking outside of it
-							popup.onclick = function (e) {
-								if (e.target === popup) {
-									popup.style.display = "none";
-								}
-							};
-						}
-					</script>
+								// Close the popup when clicking outside of it
+								popup.onclick = function (e) {
+									if (e.target === popup) {
+										popup.style.display = "none";
+									}
+								};
+							}
+						</script>
+					
+					</div>
 				
 				</div>
 </div>
